@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Library</OutputType>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>disable</ImplicitUsings>
+		<Nullable>disable</Nullable>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<OutputPath>..\Binary</OutputPath>
+		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+		<AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\..\Server\Core\Core.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+    <Reference Include="protobuf-net">
+      <HintPath>..\..\Libraries\ProtoBuf\protobuf-net.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
+	  <Exec Command="start $(TargetDir)Commit.bat" />
+	</Target>
+
+</Project>

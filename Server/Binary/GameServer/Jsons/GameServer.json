@@ -1,0 +1,7 @@
+{
+  "GameHostName": "127.0.0.1",
+  "GamePortNumber": 42001,
+
+  "UseKeepAlive": true,
+  "KeepAliveIntervalTick": 1000
+}

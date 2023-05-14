@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+	
+	<PropertyGroup>
+    <OutputPath>..\Binary\Core</OutputPath>
+		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+		<AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+		<PlatformTarget>AnyCPU</PlatformTarget>
+	</PropertyGroup>
+	
+	<ItemGroup>
+	  <Compile Remove="Common\**" />
+	  <EmbeddedResource Remove="Common\**" />
+	  <None Remove="Common\**" />
+	</ItemGroup>
+	
+	<ItemGroup>
+	  <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+	</ItemGroup>
+	
+	<ItemGroup>
+	  <Reference Include="protobuf-net">
+	    <HintPath>..\..\Libraries\ProtoBuf\protobuf-net.dll</HintPath>
+	  </Reference>
+	</ItemGroup>
+	
+	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
+	  <Exec Command="xcopy /y $(TargetDir)Core.dll &quot;$(TargetDir)..\..\..\Client\ProjectX\Assets\Plugins\Network&quot;&#xD;&#xA;xcopy /y $(TargetDir)Core.pdb &quot;$(TargetDir)..\..\..\Client\ProjectX\Assets\Plugins\Network&quot;" />
+	</Target>
+
+</Project>
