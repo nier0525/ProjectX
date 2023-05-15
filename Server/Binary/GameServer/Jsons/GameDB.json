@@ -1,7 +1,7 @@
 {
   "HostName" : "127.0.0.1",
   "PortNumber" : 1433,
-  "Database" : "SwordRPG",
+  "Database" : "SimpleRPG",
   "ID" : "LineBread",
   "Passward" : "dlatl12!@"
 }

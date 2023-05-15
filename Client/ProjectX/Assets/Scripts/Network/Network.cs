@@ -50,7 +50,7 @@ public class Network : Singleton<Network>
 
     private void OnErrorCode(PacketSession session, ArraySegment<byte> buffer)
     {
-        var packet = PacketUtil.UnPack<ErrorCode>(buffer);
+        var packet = PacketUtil.UnPack<SErrorCode>(buffer);
         switch (packet.UIType)
         {
             case ErrorUIType.MessageBox:

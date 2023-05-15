@@ -8,7 +8,7 @@ public class HeartBeat
 }
 
 [ProtoContract]
-public class ErrorCode
+public class SErrorCode
 {
     [ProtoMember(1)] public ServerErrorCode errorCode { get; set; }
     [ProtoMember(2)] public ErrorUIType UIType { get; set; }
@@ -16,7 +16,7 @@ public class ErrorCode
 }
 
 [ProtoContract]
-public class LoginInfo
+public class CLoginInfo
 {
     [ProtoMember(1)] public string  id { get; set; }
     [ProtoMember(2)] public string  password { get; set; }
@@ -24,7 +24,7 @@ public class LoginInfo
 }
 
 [ProtoContract]
-public class AccountInfo
+public class SAccountInfo
 {
     [ProtoMember(1)] public long accountID { get; set; }
 }

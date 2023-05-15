@@ -44,14 +44,14 @@ public class LobbyUI : MonoBehaviour
     // 서버에서 로그인에 성공한 경우 호출된다
     private void OnAccountInfo(PacketSession session, ArraySegment<byte> buffer)
     {
-        var packet = PacketUtil.UnPack<AccountInfo>(buffer);
+        var packet = PacketUtil.UnPack<SAccountInfo>(buffer);
         var user = session as GameSession;
 
         user.AccountID = packet.accountID;
         StartCoroutine(OnLoginSuccess(packet));
     }
 
-    private IEnumerator OnLoginSuccess(AccountInfo accountInfo)
+    private IEnumerator OnLoginSuccess(SAccountInfo accountInfo)
     {
         // Character List Setting
 
@@ -88,6 +88,6 @@ public class LobbyUI : MonoBehaviour
         if (true == string.IsNullOrEmpty(ID.text) || true == string.IsNullOrEmpty(Password.text))
             UIManager.Instance.ShowToast("Don't Blank To ID And Password", false);
         else
-            Network.Instance.Send(GameProtocol.C_LOGIN, new LoginInfo() { id = ID.text, password = Password.text, isSignUp = isSignUp });
+            Network.Instance.Send(GameProtocol.C_LOGIN, new CLoginInfo() { id = ID.text, password = Password.text, isSignUp = isSignUp });
     }
 }

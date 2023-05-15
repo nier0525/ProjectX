@@ -28,10 +28,14 @@ namespace GameServer.PacketHandler
 
         private static void OnLogin(ProtoSession session, ArraySegment<byte> buffer)
         {
-            var packet = ProtoBuffer.UnPack<LoginInfo>(buffer);
+            var packet = ProtoBuffer.UnPack<CLoginInfo>(buffer);
             var user = session as GameUserSession;
 
-            
+            var errorCode = user.OnReceiveLogin(packet);
+            if (ServerErrorCode.SUCCESS != errorCode)
+                user.SendToErrorMessageBox(errorCode);
+            else
+                user.SendToAccountInfo();
         }
     }
 }

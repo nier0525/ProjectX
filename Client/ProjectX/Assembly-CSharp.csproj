@@ -53,24 +53,24 @@
     <UnityVersion>2021.1.7f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Network\Protocols\ServerProtocol.cs" />
-    <Compile Include="Assets\Scripts\Network\Packets\GamePackets.cs" />
-    <Compile Include="Assets\Scripts\Network\ServerErrorCode.cs" />
-    <Compile Include="Assets\Scripts\Network\Packets\ServerPackets.cs" />
-    <Compile Include="Assets\Scripts\Network\ServerCommon.cs" />
-    <Compile Include="Assets\Scripts\Network\Protocols\GameProtocol.cs" />
-    <Compile Include="Assets\Scripts\Network\ReceiveQueue.cs" />
-    <Compile Include="Assets\Scripts\Utils\Singleton.cs" />
-    <Compile Include="Assets\Scripts\Network\GameSession.cs" />
-    <Compile Include="Assets\Scripts\Network\PacketUtil.cs" />
-    <Compile Include="Assets\Scripts\Network\Network.cs" />
-    <Compile Include="Assets\Scripts\UI\MessageBox.cs" />
-    <Compile Include="Assets\Scripts\Utils\CommonUtils.cs" />
-    <Compile Include="Assets\Scripts\UI\UIManager.cs" />
-    <Compile Include="Assets\Scripts\UI\UIBase.cs" />
-    <Compile Include="Assets\Scripts\UI\Toast.cs" />
-    <Compile Include="Assets\Scripts\UI\MoveText.cs" />
     <Compile Include="Assets\Scripts\UI\LobbyUI.cs" />
+    <Compile Include="Assets\Scripts\Network\ReceiveQueue.cs" />
+    <Compile Include="Assets\Scripts\Network\PacketUtil.cs" />
+    <Compile Include="Assets\Scripts\Network\GameSession.cs" />
+    <Compile Include="Assets\Scripts\UI\MessageBox.cs" />
+    <Compile Include="Assets\Scripts\Network\ServerCommon.cs" />
+    <Compile Include="Assets\Scripts\Utils\CommonUtils.cs" />
+    <Compile Include="Assets\Scripts\Network\ServerErrorCode.cs" />
+    <Compile Include="Assets\Scripts\Network\Protocols\GameProtocol.cs" />
+    <Compile Include="Assets\Scripts\Network\Network.cs" />
+    <Compile Include="Assets\Scripts\Network\Packets\GamePackets.cs" />
+    <Compile Include="Assets\Scripts\UI\UIBase.cs" />
+    <Compile Include="Assets\Scripts\Utils\Singleton.cs" />
+    <Compile Include="Assets\Scripts\UI\MoveText.cs" />
+    <Compile Include="Assets\Scripts\UI\Toast.cs" />
+    <Compile Include="Assets\Scripts\UI\UIManager.cs" />
+    <Compile Include="Assets\Scripts\Network\Protocols\ServerProtocol.cs" />
+    <Compile Include="Assets\Scripts\Network\Packets\ServerPackets.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\External\Dark_Brown_GUI_kit\Dark_Brown_GUI_kit.txt" />
@@ -305,11 +305,11 @@
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>D:\JC\Unity\2021.1.7f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.6.1\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
-    </Reference>
     <Reference Include="Core">
       <HintPath>Assets\Plugins\Network\Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.6.1\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="protobuf-net">
       <HintPath>Assets\Plugins\ProtoBuf\protobuf-net.dll</HintPath>
