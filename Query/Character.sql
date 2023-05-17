@@ -6,8 +6,8 @@ drop table if exists tb_character_history
 
 drop procedure if exists usp_character_insert
 drop procedure if exists usp_character_delete
-drop procedure if exists usp_character_select
 drop procedure if exists usp_character_select_all
+drop procedure if exists usp_character_select
 drop procedure if exists usp_character_update_gold
 drop procedure if exists usp_character_update_exp
 drop procedure if exists usp_character_update_level_up
@@ -132,6 +132,18 @@ return 1
 end
 
 go
+create or alter procedure usp_character_select_all
+@account_index bigint
+as
+begin
+set nocount on
+
+select unique_index, character_name, character_level from tb_character
+where account_index = @account_index and delete_date is null
+
+end
+
+go
 create or alter procedure usp_character_select
 @character_index bigint
 as
@@ -144,18 +156,6 @@ b.max_hp, b.max_sp, b.basic_attack, b.skill_attack, b.basic_defense, b.skill_def
 from tb_character as a inner join tb_character_status as b
 on a.unique_index = b.character_index
 where a.unique_index = @character_index and a.delete_date is null
-
-end
-
-go
-create or alter procedure usp_character_select_all
-@account_index bigint
-as
-begin
-set nocount on
-
-select unique_index, character_name, character_level from tb_character
-where account_index = @account_index
 
 end
 

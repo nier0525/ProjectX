@@ -15,11 +15,11 @@ C:/Users/zxa64/Desktop/ProjectX/Client/ProjectX
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-6326
+9362
 Successfully changed project path to: C:/Users/zxa64/Desktop/ProjectX/Client/ProjectX
 C:/Users/zxa64/Desktop/ProjectX/Client/ProjectX
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 75.45 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 73.26 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.7f1 (d91830b65d9b)
 [Subsystems] Discovering subsystems at path D:/JC/Unity/2021.1.7f1/Editor/Data/Resources/UnitySubsystems
@@ -35,124 +35,25 @@ Initialize mono
 Mono path[0] = 'D:/JC/Unity/2021.1.7f1/Editor/Data/Managed'
 Mono path[1] = 'D:/JC/Unity/2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/JC/Unity/2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56528
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56136
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/JC/Unity/2021.1.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/JC/Unity/2021.1.7f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: D:/JC/Unity/2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: D:/JC/Unity/2021.1.7f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.001333 seconds.
+Registered in 0.001294 seconds.
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 77.30 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 75.57 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.590 seconds
+- Completed reload, in  1.486 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002303 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\zxa64\Desktop\ProjectX\Client\ProjectX\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\zxa64\Desktop\ProjectX\Client\ProjectX\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.832 seconds
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2666 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 102.4 MB.
-System memory in use after: 102.6 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3119.
-Total: 1.145100 ms (FindLiveObjects: 0.118500 ms CreateObjectMapping: 0.033600 ms MarkObjects: 0.942700 ms  DeleteObjects: 0.049300 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.006556 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.754732 seconds.
-  path: Assets/Assets
-  artifactKey: Guid(e2997da996e147f428eeb40ca03c6b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets using Guid(e2997da996e147f428eeb40ca03c6b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5f92ae338af47b0f72228293244adca') in 0.001784 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 17.824052 seconds.
-  path: Assets/Plugins
-  artifactKey: Guid(69be5f0a340e5eb46bf8057ee365b497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins using Guid(69be5f0a340e5eb46bf8057ee365b497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb4b0134dc6793b8f32f3459dcd9cabd') in 0.008107 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.402927 seconds.
-  path: Assets/Plugins/ProtoBuf
-  artifactKey: Guid(8768958faab0d344689a7d387440b21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/ProtoBuf using Guid(8768958faab0d344689a7d387440b21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feca3663546c6e9e69e2678cc1bd88a6') in 0.006507 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.707327 seconds.
-  path: Assets/Plugins/Network
-  artifactKey: Guid(5b991ea6503e44f4fb2302d8152d39f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Network using Guid(5b991ea6503e44f4fb2302d8152d39f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4124cc4e667820cd3542a6bfcc0ce054') in 0.006203 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.837819 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(0f854debecfe60c44b79facb80238cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(0f854debecfe60c44b79facb80238cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e395ee9936c5bb50a1f31aefbe57f75d') in 0.005813 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.880648 seconds.
-  path: Assets/Resources
-  artifactKey: Guid(671df58e5c7c1684f961fd3273137015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources using Guid(671df58e5c7c1684f961fd3273137015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '543db374a0cd8a8f0d4bcd529b186fa9') in 0.006551 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 28.208212 seconds.
-  path: Assets/Store
-  artifactKey: Guid(e87554a4e7230b14ba7e72db39fc8509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Store using Guid(e87554a4e7230b14ba7e72db39fc8509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d8cc628c8fe64407d10f2edcde463c2') in 0.007962 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.853055 seconds.
-  path: Assets/New Folder
-  artifactKey: Guid(cf394e44a1667444d85a2c57924150d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Folder using Guid(cf394e44a1667444d85a2c57924150d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '184f71f3f31443b64a54d0f57be6f800') in 0.006221 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 18.617790 seconds.
-  path: Assets/Scripts/Network
-  artifactKey: Guid(8f39416e549e84a47ab228f1dbf1249c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Network using Guid(8f39416e549e84a47ab228f1dbf1249c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5888639e1e76c5479bcfc91cb7f48b8e') in 0.002100 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.523602 seconds.
-  path: Assets/Scripts/Network/Packets
-  artifactKey: Guid(f8f3209124b35624abfa9abbbe8d8cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Network/Packets using Guid(f8f3209124b35624abfa9abbbe8d8cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ea8e149a1f5d20c91f82bd0fb9304a1') in 0.006011 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.115268 seconds.
-  path: Assets/Scripts/Network/Protocols
-  artifactKey: Guid(52b4dcab2d0f06f419f5b8e0d1601409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Network/Protocols using Guid(52b4dcab2d0f06f419f5b8e0d1601409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e4ddb337fc9948caad08b63d26fdb0e') in 0.005780 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002908 seconds.
+Registered in 0.002596 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\zxa64\Desktop\ProjectX\Client\ProjectX\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\zxa64\Desktop\ProjectX\Client\ProjectX\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -161,167 +62,1484 @@ Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.768 seconds
+- Completed reload, in  0.758 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.77 ms, found 1 plugins.
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2669 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 102.6 MB.
-System memory in use after: 102.8 MB.
+Unloading 2686 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.0 MB.
+System memory in use after: 104.2 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3128.
-Total: 1.827100 ms (FindLiveObjects: 0.223000 ms CreateObjectMapping: 0.063000 ms MarkObjects: 1.491100 ms  DeleteObjects: 0.049100 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3144.
+Total: 1.181100 ms (FindLiveObjects: 0.120500 ms CreateObjectMapping: 0.034600 ms MarkObjects: 0.972900 ms  DeleteObjects: 0.052000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 52379.657534 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85059f4f9e1a832ed95adaa0d25c5c4c') in 0.019520 seconds 
+  path: Assets/External/3D Cartoon Village/Models
+  artifactKey: Guid(f2dbe659e9717c64b86d1e2d462ffbc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/3D Cartoon Village/Models using Guid(f2dbe659e9717c64b86d1e2d462ffbc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c75aa084a55b8dc6976fb02428f2585') in 0.008262 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.540619 seconds.
-  path: Assets/Scenes/LobbyScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/LobbyScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '924a284b8b602f564119877e20d7201e') in 0.006809 seconds 
+  Time since last request: 6.691171 seconds.
+  path: Assets/External/3D Cartoon Village/Models/Fund5.fbx
+  artifactKey: Guid(5fe19e90834b58742834f7fa4cfbe907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/3D Cartoon Village/Models/Fund5.fbx using Guid(5fe19e90834b58742834f7fa4cfbe907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fab2687ac82fe5c463412069a1a56969') in 0.247177 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.902320 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(7efe815e01e0adf4fa357da1c1833135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(7efe815e01e0adf4fa357da1c1833135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cc5934b3f9d67b11da1bdb658b252a4') in 0.008507 seconds 
+  Time since last request: 0.000148 seconds.
+  path: Assets/External/3D Cartoon Village/Models/Fund7.fbx
+  artifactKey: Guid(3dc015549e0080e4882e35377b1dfe5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/3D Cartoon Village/Models/Fund7.fbx using Guid(3dc015549e0080e4882e35377b1dfe5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '563d25a8f4258f31685a94231ba4f190') in 0.068240 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.814752 seconds.
-  path: Assets/Scenes/Lobby.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Lobby.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da588754697b2aa0615ad045a9170fb1') in 0.015975 seconds 
+  Time since last request: 0.000130 seconds.
+  path: Assets/External/3D Cartoon Village/Models/House.fbx
+  artifactKey: Guid(4da987f9df5ee554fbfbd9c4c36b5ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/3D Cartoon Village/Models/House.fbx using Guid(4da987f9df5ee554fbfbd9c4c36b5ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67e28258e4a92851e74e8a94105d153b') in 0.097662 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.872078 seconds.
-  path: Assets/Scenes/Game.unity
-  artifactKey: Guid(758941fbad4e72e42b7394759054b0bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Game.unity using Guid(758941fbad4e72e42b7394759054b0bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a1f31094dd823fd42fd1ee7df5a6690') in 0.007070 seconds 
+  Time since last request: 0.000120 seconds.
+  path: Assets/External/3D Cartoon Village/Models/Grass.fbx
+  artifactKey: Guid(bee660b4cd360de4bac5f10964f279fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/3D Cartoon Village/Models/Grass.fbx using Guid(bee660b4cd360de4bac5f10964f279fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '755a838b712555f9216fb1c8a7903530') in 0.201203 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 56.661085 seconds.
+  Time since last request: 0.000122 seconds.
+  path: Assets/External/3D Cartoon Village/Models/Grass2.fbx
+  artifactKey: Guid(0064875460e5d6b4982c67554afd0f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/3D Cartoon Village/Models/Grass2.fbx using Guid(0064875460e5d6b4982c67554afd0f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '267358201bcf2eeb590bf1875567b0fa') in 0.105137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/External/3D Cartoon Village/Models/Gats.fbx
+  artifactKey: Guid(477b9675cec6baa4191066c73b9a38e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/3D Cartoon Village/Models/Gats.fbx using Guid(477b9675cec6baa4191066c73b9a38e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f33311098214a8f1647a9c12a8ea3d') in 0.088865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/External/3D Cartoon Village/Models/Fund6.fbx
+  artifactKey: Guid(9d407aed3eedef64a8053224525e9d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/3D Cartoon Village/Models/Fund6.fbx using Guid(9d407aed3eedef64a8053224525e9d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '623b172916790c6c66f1110b6bd432d9') in 0.068728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/External/3D Cartoon Village/Models/Fund8.fbx
+  artifactKey: Guid(81afff1d44ff00c4e94e55fdfedbd3e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/3D Cartoon Village/Models/Fund8.fbx using Guid(81afff1d44ff00c4e94e55fdfedbd3e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88c37b44e86c5eeac1be1869c1a541a7') in 0.038455 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002537 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\zxa64\Desktop\ProjectX\Client\ProjectX\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\zxa64\Desktop\ProjectX\Client\ProjectX\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.770 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2708 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.5 MB.
+System memory in use after: 109.7 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3184.
+Total: 1.594400 ms (FindLiveObjects: 0.194400 ms CreateObjectMapping: 0.061800 ms MarkObjects: 1.300200 ms  DeleteObjects: 0.037300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 353.961882 seconds.
+  path: Assets/ExplosiveLLC/Warrior Pack Bundle 2 FREE
+  artifactKey: Guid(c2f5fce71fe4a0c43a0e8e1d09e508bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Warrior Pack Bundle 2 FREE using Guid(c2f5fce71fe4a0c43a0e8e1d09e508bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '746a9ed3e4203b9909a189986f65ab16') in 0.011786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.785131 seconds.
+  path: Assets/ExplosiveLLC/Warrior FREE
+  artifactKey: Guid(5a2e23e38edab7a43991b4150b8b38d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Warrior FREE using Guid(5a2e23e38edab7a43991b4150b8b38d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84edda1c3a02e9a52b6b29270973aa62') in 0.008119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.581674 seconds.
+  path: Assets/ExplosiveLLC/Warrior Pack Bundle 2 FREE/Archer Warrior Mecanim Animation Pack
+  artifactKey: Guid(e52019a4620271f4b8f9bd819eff78e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Warrior Pack Bundle 2 FREE/Archer Warrior Mecanim Animation Pack using Guid(e52019a4620271f4b8f9bd819eff78e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96c458b73e8d4a3f76ce8eddea8782b4') in 0.008398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.848056 seconds.
+  path: Assets/ExplosiveLLC/Warrior Pack Bundle 2 FREE/Mage Warrior Mecanim Animation Pack
+  artifactKey: Guid(42c2b62c858ba7240ac219022576d711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Warrior Pack Bundle 2 FREE/Mage Warrior Mecanim Animation Pack using Guid(42c2b62c858ba7240ac219022576d711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebb55f299c537b7687e150920bcf5d50') in 0.008101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.361508 seconds.
+  path: Assets/ExplosiveLLC/Warrior Pack Bundle 2 FREE/2 Handed Warrior Mecanim Animation Pack
+  artifactKey: Guid(1f6b2ca035e387048bb167acd5646d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Warrior Pack Bundle 2 FREE/2 Handed Warrior Mecanim Animation Pack using Guid(1f6b2ca035e387048bb167acd5646d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c03ee8a6c60193c731664645d7dddce2') in 0.008009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.024268 seconds.
+  path: Assets/ExplosiveLLC/Warrior Pack Bundle 2 FREE/2 Handed Warrior Mecanim Animation Pack/Prefabs
+  artifactKey: Guid(84dbef2cc54502541ab8cc70b1f5ebdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Warrior Pack Bundle 2 FREE/2 Handed Warrior Mecanim Animation Pack/Prefabs using Guid(84dbef2cc54502541ab8cc70b1f5ebdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e480504a528ffcbbd34035cadc7d41') in 0.008108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.292562 seconds.
+  path: Assets/ExplosiveLLC/Warrior Pack Bundle 2 FREE/2 Handed Warrior Mecanim Animation Pack/Prefabs/2Handed Warrior.prefab
+  artifactKey: Guid(338097dc3c0187f42a8a49e673ed32d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Warrior Pack Bundle 2 FREE/2 Handed Warrior Mecanim Animation Pack/Prefabs/2Handed Warrior.prefab using Guid(338097dc3c0187f42a8a49e673ed32d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f954b115d756d4c735867802f5fe84e6') in 0.187958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 69.474384 seconds.
   path: Assets/Scenes/Test.unity
   artifactKey: Guid(9d621c1bfcfb9db448641b9b98aa9cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Test.unity using Guid(9d621c1bfcfb9db448641b9b98aa9cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '646d854d50fa0d00a8815604e5055ca4') in 0.007375 seconds 
+Start importing Assets/Scenes/Test.unity using Guid(9d621c1bfcfb9db448641b9b98aa9cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74d25b40358071829d170f75bed4447d') in 0.009045 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 16382.338084 seconds.
-  path: Assets/External
-  artifactKey: Guid(e87554a4e7230b14ba7e72db39fc8509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External using Guid(e87554a4e7230b14ba7e72db39fc8509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a47e3450cf3ce536bce2b7ade1703606') in 0.008605 seconds 
+  Time since last request: 43.155212 seconds.
+  path: Assets/ExplosiveLLC/Warrior Pack Bundle 2 FREE/2 Handed Warrior Mecanim Animation Pack/Scenes/2Handed.unity
+  artifactKey: Guid(83a75c5516af62348b47b2315de53e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Warrior Pack Bundle 2 FREE/2 Handed Warrior Mecanim Animation Pack/Scenes/2Handed.unity using Guid(83a75c5516af62348b47b2315de53e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b1740aa1e7e76ebcf9772d627376256') in 0.008600 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002754 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\zxa64\Desktop\ProjectX\Client\ProjectX\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\zxa64\Desktop\ProjectX\Client\ProjectX\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.762 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2708 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.5 MB.
+System memory in use after: 123.7 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3190.
+Total: 1.648000 ms (FindLiveObjects: 0.211600 ms CreateObjectMapping: 0.064700 ms MarkObjects: 1.332300 ms  DeleteObjects: 0.038700 ms)
+
 ========================================================================
 Received Import Request.
-  Time since last request: 6.831996 seconds.
-  path: Assets/External/Cookie Run Font
-  artifactKey: Guid(9020e7f8f0cde704cbb9a745d7cdba51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External/Cookie Run Font using Guid(9020e7f8f0cde704cbb9a745d7cdba51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64f555aed5c2fc67d7e980674a665614') in 0.007750 seconds 
+  Time since last request: 114.505608 seconds.
+  path: Assets/Scenes/Test.unity
+  artifactKey: Guid(9d621c1bfcfb9db448641b9b98aa9cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test.unity using Guid(9d621c1bfcfb9db448641b9b98aa9cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15e73cb4e5c09b56360638172451cdd7') in 0.012153 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 21.462757 seconds.
-  path: Assets/External/Cookie Run Font/CookieRun Regular.ttf
-  artifactKey: Guid(e25a8093f4eff334289275548aab0cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External/Cookie Run Font/CookieRun Regular.ttf using Guid(e25a8093f4eff334289275548aab0cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01511d00bd2486565c462796b4c256bc') in 0.106247 seconds 
+  Time since last request: 4.065236 seconds.
+  path: Assets/ExplosiveLLC/Warrior Pack Bundle 2 FREE/2 Handed Warrior Mecanim Animation Pack/Avatar Mask/2Handed UpperBody AvatarMask.mask
+  artifactKey: Guid(4aac5ee89187dd04aa11964581909423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Warrior Pack Bundle 2 FREE/2 Handed Warrior Mecanim Animation Pack/Avatar Mask/2Handed UpperBody AvatarMask.mask using Guid(4aac5ee89187dd04aa11964581909423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ec94fd9855ecb045be4a2a8cb0c970d') in 0.010738 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1321.792930 seconds.
-  path: Assets/External/Sprites
-  artifactKey: Guid(71b6916389b920f46a1b181f8a97b25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External/Sprites using Guid(71b6916389b920f46a1b181f8a97b25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb6972e5471c183472c881932fdbdc8e') in 0.006641 seconds 
+  Time since last request: 0.481911 seconds.
+  path: Assets/ExplosiveLLC/Warrior Pack Bundle 2 FREE/2 Handed Warrior Mecanim Animation Pack/Animations/2Handed@Attack1.FBX
+  artifactKey: Guid(dbbdcfdc751ca1146932bd6bc3dda730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Warrior Pack Bundle 2 FREE/2 Handed Warrior Mecanim Animation Pack/Animations/2Handed@Attack1.FBX using Guid(dbbdcfdc751ca1146932bd6bc3dda730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '513082a1643ff51780ecc5f5e54c6927') in 0.023208 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.745320 seconds.
-  path: Assets/Resources/Sprites
-  artifactKey: Guid(5023615cffc982e459e78a5407bb70b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Sprites using Guid(5023615cffc982e459e78a5407bb70b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8694eb42ae8dc2c34db8638644bbaf0') in 0.002444 seconds 
+  Time since last request: 0.000143 seconds.
+  path: Assets/ExplosiveLLC/Warrior Pack Bundle 2 FREE/2 Handed Warrior Mecanim Animation Pack/Animations/2Handed@Fall.FBX
+  artifactKey: Guid(5a3da40707712d84c9c79fd9056679a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Warrior Pack Bundle 2 FREE/2 Handed Warrior Mecanim Animation Pack/Animations/2Handed@Fall.FBX using Guid(5a3da40707712d84c9c79fd9056679a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ba2102a718bc383d37a423084ed5bf2') in 0.011196 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 876.210824 seconds.
-  path: Assets/_TerrainAutoUpgrade
-  artifactKey: Guid(8edaa8df78746dc418d7e6562e380dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TerrainAutoUpgrade using Guid(8edaa8df78746dc418d7e6562e380dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccb4eac5a8ee4095ef9db77dd45ad147') in 0.007451 seconds 
+  Time since last request: 0.000118 seconds.
+  path: Assets/ExplosiveLLC/Warrior Pack Bundle 2 FREE/2 Handed Warrior Mecanim Animation Pack/Animations/2Handed@Idle.FBX
+  artifactKey: Guid(c26ff68d987e6654eae7ac997df4d3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Warrior Pack Bundle 2 FREE/2 Handed Warrior Mecanim Animation Pack/Animations/2Handed@Idle.FBX using Guid(c26ff68d987e6654eae7ac997df4d3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5199dd9ff2770056704413ad78450879') in 0.010371 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.602805 seconds.
-  path: Assets/3D Cartoon Village
-  artifactKey: Guid(267db591fef66524d83921154e322695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Cartoon Village using Guid(267db591fef66524d83921154e322695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bcb1bf70f853bce74d79ed6fa0015d5') in 0.008168 seconds 
+  Time since last request: 0.000135 seconds.
+  path: Assets/ExplosiveLLC/Warrior Pack Bundle 2 FREE/2 Handed Warrior Mecanim Animation Pack/Animations/2Handed@Run.FBX
+  artifactKey: Guid(f8a7c8447d8c15740964c9bfcb761d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Warrior Pack Bundle 2 FREE/2 Handed Warrior Mecanim Animation Pack/Animations/2Handed@Run.FBX using Guid(f8a7c8447d8c15740964c9bfcb761d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6de8f4d1b8c96f07bd8a1ddcbbbbb986') in 0.009937 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.804581 seconds.
-  path: Assets/External/_TerrainAutoUpgrade/layer_Grass3d3aba195e4d26ee.terrainlayer
-  artifactKey: Guid(6e6d5ad505a866d42bdb8d43dfe911ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External/_TerrainAutoUpgrade/layer_Grass3d3aba195e4d26ee.terrainlayer using Guid(6e6d5ad505a866d42bdb8d43dfe911ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00fc3ab61505058089a674333a6194c6') in 0.024837 seconds 
+  Time since last request: 0.000119 seconds.
+  path: Assets/ExplosiveLLC/Warrior Pack Bundle 2 FREE/2 Handed Warrior Mecanim Animation Pack/Animations/2Handed@WalkSlow.FBX
+  artifactKey: Guid(7c64bd10551274d4aa48072bca44bfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Warrior Pack Bundle 2 FREE/2 Handed Warrior Mecanim Animation Pack/Animations/2Handed@WalkSlow.FBX using Guid(7c64bd10551274d4aa48072bca44bfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57511bbd49640d9e821ddf530e744fb5') in 0.009040 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/External/_TerrainAutoUpgrade/layer_Rock33d3aba195e4d26ee.terrainlayer
-  artifactKey: Guid(d46a7194ef62de541bd17eaa034d154a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External/_TerrainAutoUpgrade/layer_Rock33d3aba195e4d26ee.terrainlayer using Guid(d46a7194ef62de541bd17eaa034d154a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c32c41ee94b4e0fa44c8f41875c9338') in 0.010605 seconds 
+  Time since last request: 0.000104 seconds.
+  path: Assets/ExplosiveLLC/Warrior Pack Bundle 2 FREE/2 Handed Warrior Mecanim Animation Pack/Animations/2Handed@Walk.FBX
+  artifactKey: Guid(6aa2008e4fe28b443b5c93d5b9f768d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Warrior Pack Bundle 2 FREE/2 Handed Warrior Mecanim Animation Pack/Animations/2Handed@Walk.FBX using Guid(6aa2008e4fe28b443b5c93d5b9f768d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd04a2485d3e29b04ac51f240f67a9a92') in 0.008774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/ExplosiveLLC/Warrior Pack Bundle 2 FREE/2 Handed Warrior Mecanim Animation Pack/Animations/2Handed@Jump.FBX
+  artifactKey: Guid(82108c6a220ef70448d2f035af5ee478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Warrior Pack Bundle 2 FREE/2 Handed Warrior Mecanim Animation Pack/Animations/2Handed@Jump.FBX using Guid(82108c6a220ef70448d2f035af5ee478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1c99a6b552117a02af49f8be257803c') in 0.009049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.854976 seconds.
+  path: Assets/ExplosiveLLC/Warrior Pack Bundle 2 FREE/2 Handed Warrior Mecanim Animation Pack/Textures
+  artifactKey: Guid(8a764e74be8451f4b954e0880bc69c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Warrior Pack Bundle 2 FREE/2 Handed Warrior Mecanim Animation Pack/Textures using Guid(8a764e74be8451f4b954e0880bc69c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '624c2e35fb55510b860331e0ac274a3a') in 0.008511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.395149 seconds.
+  path: Assets/ExplosiveLLC/Warrior Pack Bundle 2 FREE/2 Handed Warrior Mecanim Animation Pack/Scenes
+  artifactKey: Guid(0c65f4b92f544d94cbe8d3fa23204772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Warrior Pack Bundle 2 FREE/2 Handed Warrior Mecanim Animation Pack/Scenes using Guid(0c65f4b92f544d94cbe8d3fa23204772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '602c71b31c3f204e8d234a42c1151779') in 0.007650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.164132 seconds.
+  path: Assets/ExplosiveLLC/Warrior Pack Bundle 2 FREE/2 Handed Warrior Mecanim Animation Pack/Animation Controller
+  artifactKey: Guid(1269020b07081b64fb014528f6e3e4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Warrior Pack Bundle 2 FREE/2 Handed Warrior Mecanim Animation Pack/Animation Controller using Guid(1269020b07081b64fb014528f6e3e4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b23ceb736ef10fe7fb83950ebdd0eb32') in 0.008309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.199596 seconds.
+  path: Assets/ExplosiveLLC/Warrior Pack Bundle 2 FREE/2 Handed Warrior Mecanim Animation Pack/Animation Controller/2Handed Warrior Animation Controller.controller
+  artifactKey: Guid(eedd95950d7c15e4eb7d88267e566406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Warrior Pack Bundle 2 FREE/2 Handed Warrior Mecanim Animation Pack/Animation Controller/2Handed Warrior Animation Controller.controller using Guid(eedd95950d7c15e4eb7d88267e566406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c0d8e5c08cc3ff722b0f304cdc913ab') in 0.015010 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002529 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\zxa64\Desktop\ProjectX\Client\ProjectX\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\zxa64\Desktop\ProjectX\Client\ProjectX\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.846 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2681 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.0 MB.
+System memory in use after: 123.2 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3167.
+Total: 1.653500 ms (FindLiveObjects: 0.200800 ms CreateObjectMapping: 0.064700 ms MarkObjects: 1.316800 ms  DeleteObjects: 0.070400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002664 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\zxa64\Desktop\ProjectX\Client\ProjectX\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\zxa64\Desktop\ProjectX\Client\ProjectX\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.755 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2681 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.8 MB.
+System memory in use after: 123.0 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3170.
+Total: 1.597500 ms (FindLiveObjects: 0.194600 ms CreateObjectMapping: 0.065600 ms MarkObjects: 1.300000 ms  DeleteObjects: 0.036700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 111.162082 seconds.
+  path: Assets/RPG Tiny Hero Duo/Prefab
+  artifactKey: Guid(349a7771185191b418b97051fee521cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Prefab using Guid(349a7771185191b418b97051fee521cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee34612c52ce6d22149f0d1b7b2e8ee2') in 0.011891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.092065 seconds.
+  path: Assets/RPG Tiny Hero Duo/Prefab/FemaleCharacterPBR.prefab
+  artifactKey: Guid(cc91c8ba8b9a34f4d99e70d721f60b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Prefab/FemaleCharacterPBR.prefab using Guid(cc91c8ba8b9a34f4d99e70d721f60b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4d9c089cab9b1122f896801b667501f') in 0.214822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/RPG Tiny Hero Duo/Prefab/MaleCharacterPolyart.prefab
+  artifactKey: Guid(c564c8c0d0cdc45429417f315e9f3e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Prefab/MaleCharacterPolyart.prefab using Guid(c564c8c0d0cdc45429417f315e9f3e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f62e413cd099728c1f86a10bac216e70') in 0.078337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/RPG Tiny Hero Duo/Prefab/Shield08PBR.prefab
+  artifactKey: Guid(573036acf9f1e0c42845dddc25cea245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Prefab/Shield08PBR.prefab using Guid(573036acf9f1e0c42845dddc25cea245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92d297cc6c14f242f6492f2287df9e13') in 0.012590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/RPG Tiny Hero Duo/Prefab/Shield05Polyart.prefab
+  artifactKey: Guid(f06068434cc02c941bd2b282c8d154ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Prefab/Shield05Polyart.prefab using Guid(f06068434cc02c941bd2b282c8d154ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db9efc15403b8b6c8dd0eef8a6dfb0df') in 0.012135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/RPG Tiny Hero Duo/Prefab/OHS03Polyart.prefab
+  artifactKey: Guid(f0aae4c8b38e02e48a4124483b105340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Prefab/OHS03Polyart.prefab using Guid(f0aae4c8b38e02e48a4124483b105340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d5cc211c019337a38e3d884bb058d53') in 0.012462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/RPG Tiny Hero Duo/Prefab/FemaleCharacterPolyart.prefab
+  artifactKey: Guid(257c304c754d3b247a51ef5bea7a90d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Prefab/FemaleCharacterPolyart.prefab using Guid(257c304c754d3b247a51ef5bea7a90d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7575599a68fe4c3b65e7142262f7c35b') in 0.033043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/RPG Tiny Hero Duo/Prefab/OHS06PBR.prefab
+  artifactKey: Guid(3617e4093ca8d5145986d37c89cfd692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Prefab/OHS06PBR.prefab using Guid(3617e4093ca8d5145986d37c89cfd692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ccee472f02e1e9b8923381776696f6e') in 0.019973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/RPG Tiny Hero Duo/Prefab/OHS06Polyart.prefab
+  artifactKey: Guid(a611871aa4f987941bf934736c0ee6d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Prefab/OHS06Polyart.prefab using Guid(a611871aa4f987941bf934736c0ee6d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5b8af367b800893f58afac5a2d8bd7f') in 0.012108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/RPG Tiny Hero Duo/Prefab/Shield08Polyart.prefab
+  artifactKey: Guid(f86f26a978127384b85b71f1235c8ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Prefab/Shield08Polyart.prefab using Guid(f86f26a978127384b85b71f1235c8ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fa770df698a83bae6b930f5ef641e84') in 0.022772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/RPG Tiny Hero Duo/Prefab/Shield05PBR.prefab
+  artifactKey: Guid(ac86f8ddca59acb4184d3eb42067bafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Prefab/Shield05PBR.prefab using Guid(ac86f8ddca59acb4184d3eb42067bafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13e06abed2b6af14bfca63d50f88bb5f') in 0.016745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/RPG Tiny Hero Duo/Prefab/MaleCharacterPBR.prefab
+  artifactKey: Guid(2dfbb63c9cdf7504faf4ff26b0581598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Prefab/MaleCharacterPBR.prefab using Guid(2dfbb63c9cdf7504faf4ff26b0581598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82ab88933bc2eec52229fb8cb377b53d') in 0.030767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/RPG Tiny Hero Duo/Prefab/OHS03PBR.prefab
+  artifactKey: Guid(9fbe61d1f4bc091439f25f985dd189a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Prefab/OHS03PBR.prefab using Guid(9fbe61d1f4bc091439f25f985dd189a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05f4389589079a0a1aa7e6aaaee59abb') in 0.015403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 394.811272 seconds.
+  path: Assets/External/3D Cartoon Village/Prefabs
+  artifactKey: Guid(fe0cea3d5f23a67409e12e2e79263746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/3D Cartoon Village/Prefabs using Guid(fe0cea3d5f23a67409e12e2e79263746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c44381b57869487c89a39129cf2a76bf') in 0.008415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.615524 seconds.
+  path: Assets/External/3D Cartoon Village/Prefabs/Rock6.prefab
+  artifactKey: Guid(d6a82b53c9d6e6e49a4f56f4bb13de95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/3D Cartoon Village/Prefabs/Rock6.prefab using Guid(d6a82b53c9d6e6e49a4f56f4bb13de95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f549b0a775f17a1a0187b489464ed3c7') in 0.021855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/External/3D Cartoon Village/Prefabs/Rock10.prefab
+  artifactKey: Guid(e26e3de0508279740823b664d7fdc393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/3D Cartoon Village/Prefabs/Rock10.prefab using Guid(e26e3de0508279740823b664d7fdc393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7495d8f7a54e3905c8e19db6ce14ea3') in 0.063152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/External/3D Cartoon Village/Prefabs/Roof.prefab
+  artifactKey: Guid(98da264114ee57a48babc92b34ad66cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/3D Cartoon Village/Prefabs/Roof.prefab using Guid(98da264114ee57a48babc92b34ad66cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ad5cca6b1158c51975ca4d2dee9908d') in 0.029528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/External/3D Cartoon Village/Prefabs/Rock8.prefab
+  artifactKey: Guid(4bf1589bbbd8f2f429dc2edf0792d8bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/3D Cartoon Village/Prefabs/Rock8.prefab using Guid(4bf1589bbbd8f2f429dc2edf0792d8bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9bf2abbc32f83417cefe4f347ca7691') in 0.015790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.339645 seconds.
+  path: Assets/External/3D Cartoon Village/Prefabs/Roof2.prefab
+  artifactKey: Guid(c90a328412889a14d84d781f311dae8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/3D Cartoon Village/Prefabs/Roof2.prefab using Guid(c90a328412889a14d84d781f311dae8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '530265f87f573429d3ba2fae80d37841') in 0.030570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/External/3D Cartoon Village/Prefabs/Stairs2.prefab
+  artifactKey: Guid(2b4422d8919ef09429c49b48f1456a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/3D Cartoon Village/Prefabs/Stairs2.prefab using Guid(2b4422d8919ef09429c49b48f1456a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39dbdbbd23e57a8deeded6f3c883ae1a') in 0.019059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/External/3D Cartoon Village/Prefabs/Shield.prefab
+  artifactKey: Guid(7472aec3b262af5448b440cf4d40a101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/3D Cartoon Village/Prefabs/Shield.prefab using Guid(7472aec3b262af5448b440cf4d40a101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96cd221e45be7a79d8cb89be09a8e976') in 0.028656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/External/3D Cartoon Village/Prefabs/Stairs3.prefab
+  artifactKey: Guid(bb4eeeef393d13a4095e91c5ac6f59fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/3D Cartoon Village/Prefabs/Stairs3.prefab using Guid(bb4eeeef393d13a4095e91c5ac6f59fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '083eda2da634a81744ed56d90b2a181c') in 0.017983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/External/3D Cartoon Village/Prefabs/Shield2.prefab
+  artifactKey: Guid(4c5c857b4beff4b4189019b1fe4bf862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/3D Cartoon Village/Prefabs/Shield2.prefab using Guid(4c5c857b4beff4b4189019b1fe4bf862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64feb4adf4774fdd2c90660ee8e6c633') in 0.024317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/External/3D Cartoon Village/Prefabs/Stairs.prefab
+  artifactKey: Guid(cfdb553db06896145850bddaa6ce8d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/3D Cartoon Village/Prefabs/Stairs.prefab using Guid(cfdb553db06896145850bddaa6ce8d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2db4e0c0aa3cf257cf21eb69ddce27f') in 0.014533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.113791 seconds.
+  path: Assets/External/3D Cartoon Village/Prefabs/Stairs4.prefab
+  artifactKey: Guid(dfe6fe36526a4c34fac3c8eff5fcd457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/3D Cartoon Village/Prefabs/Stairs4.prefab using Guid(dfe6fe36526a4c34fac3c8eff5fcd457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b57ccfe6abec0c378122f9a7db3e0740') in 0.021032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/External/3D Cartoon Village/Prefabs/Stairs6.prefab
+  artifactKey: Guid(f99f2cb8edded014e88817d9b255b9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/3D Cartoon Village/Prefabs/Stairs6.prefab using Guid(f99f2cb8edded014e88817d9b255b9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e784aeac5c1db9b7d80d12b495252aa2') in 0.014327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/External/3D Cartoon Village/Prefabs/Stairs7.prefab
+  artifactKey: Guid(f30cc804e5a71554eb49d31b985b1d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/3D Cartoon Village/Prefabs/Stairs7.prefab using Guid(f30cc804e5a71554eb49d31b985b1d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1b6b62915c0db0a92d4af6c561dfdef') in 0.014605 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000105 seconds.
-  path: Assets/External/_TerrainAutoUpgrade/layer_Rock3d3aba195e4d26ee.terrainlayer
-  artifactKey: Guid(a189383f8fbf48b478f16c0fb257e968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External/_TerrainAutoUpgrade/layer_Rock3d3aba195e4d26ee.terrainlayer using Guid(a189383f8fbf48b478f16c0fb257e968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '412d32e780447db557863f4790ab84d4') in 0.010702 seconds 
+  path: Assets/External/3D Cartoon Village/Prefabs/Stone.prefab
+  artifactKey: Guid(e79943a65b43ce247a21832da8e1d1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/3D Cartoon Village/Prefabs/Stone.prefab using Guid(e79943a65b43ce247a21832da8e1d1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21361423ece37be40520d7deeb7d193e') in 0.012671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/External/3D Cartoon Village/Prefabs/Stone8.prefab
+  artifactKey: Guid(7f791d86a2c39ae449da00b8e08767ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/3D Cartoon Village/Prefabs/Stone8.prefab using Guid(7f791d86a2c39ae449da00b8e08767ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f68b39d15441e19820655e0a29d0692') in 0.013011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/External/3D Cartoon Village/Prefabs/Stairs5.prefab
+  artifactKey: Guid(9ad8db4bd8b425b4d885d3a26de5e86f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/3D Cartoon Village/Prefabs/Stairs5.prefab using Guid(9ad8db4bd8b425b4d885d3a26de5e86f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78053d7cd95a1196110de5543b32fd2b') in 0.013963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/External/3D Cartoon Village/Prefabs/Stone3.prefab
+  artifactKey: Guid(6784f526bbc66ac4cb631fb3d21a51bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/3D Cartoon Village/Prefabs/Stone3.prefab using Guid(6784f526bbc66ac4cb631fb3d21a51bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79a25bb3cf3be96ad12f0daf7c72bf6c') in 0.013395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/External/3D Cartoon Village/Prefabs/Stone2.prefab
+  artifactKey: Guid(54ed8c7604da9cf4a8eb3fd2e9894212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/3D Cartoon Village/Prefabs/Stone2.prefab using Guid(54ed8c7604da9cf4a8eb3fd2e9894212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e65f70a067ba2e4f7bddbb09dd667be') in 0.012727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/External/3D Cartoon Village/Prefabs/Stone4.prefab
+  artifactKey: Guid(3960c7fc290eb0048b9aed424430ae0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/3D Cartoon Village/Prefabs/Stone4.prefab using Guid(3960c7fc290eb0048b9aed424430ae0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd797138cfaa8561645ac77ef912f8a5a') in 0.013331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/External/3D Cartoon Village/Prefabs/Stone5.prefab
+  artifactKey: Guid(e9dd598d27bb8864e86d15dc0d87f529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/3D Cartoon Village/Prefabs/Stone5.prefab using Guid(e9dd598d27bb8864e86d15dc0d87f529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12bee1f0d4c09d3d96de2db311db4f64') in 0.013173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.115231 seconds.
+  path: Assets/External/3D Cartoon Village/Prefabs/Table.prefab
+  artifactKey: Guid(e9af6550530c64245b23872b281ba223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/3D Cartoon Village/Prefabs/Table.prefab using Guid(e9af6550530c64245b23872b281ba223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cf9a5ed0ff59269bb24c08199181385') in 0.021883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/External/3D Cartoon Village/Prefabs/Tower2.prefab
+  artifactKey: Guid(960449995c3f15049bd987cc9a1afeb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/3D Cartoon Village/Prefabs/Tower2.prefab using Guid(960449995c3f15049bd987cc9a1afeb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bd0236acd81e5c8a4bc0851babeab2e') in 0.018222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/External/3D Cartoon Village/Prefabs/Tower4.prefab
+  artifactKey: Guid(96301016d813eb140a67772e2229e3d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/3D Cartoon Village/Prefabs/Tower4.prefab using Guid(96301016d813eb140a67772e2229e3d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4735aaafbd0a6b95b299f66a73e17e1b') in 0.014089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/External/3D Cartoon Village/Prefabs/Tower7.prefab
+  artifactKey: Guid(9cc5dc49f6e8cbf4a97676cc2c000614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/3D Cartoon Village/Prefabs/Tower7.prefab using Guid(9cc5dc49f6e8cbf4a97676cc2c000614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '682eea48694a7ad69fff035c509a8ba1') in 0.017328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/External/3D Cartoon Village/Prefabs/Tower5.prefab
+  artifactKey: Guid(2edf2523bdfaea742accfd0f9528abf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/3D Cartoon Village/Prefabs/Tower5.prefab using Guid(2edf2523bdfaea742accfd0f9528abf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32cb3ff30d6ca0691a2442599cbb8a24') in 0.013658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/External/3D Cartoon Village/Prefabs/Tower6.prefab
+  artifactKey: Guid(567ac14ff96d8f340a4612119589096d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/3D Cartoon Village/Prefabs/Tower6.prefab using Guid(567ac14ff96d8f340a4612119589096d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d8e029d3a5a606a6130c005d2f02930') in 0.013570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/External/3D Cartoon Village/Prefabs/Tower3.prefab
+  artifactKey: Guid(7bd910c227164784fb24248b1dd111c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/3D Cartoon Village/Prefabs/Tower3.prefab using Guid(7bd910c227164784fb24248b1dd111c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1702ce87d5c11ce8f047519d824388b1') in 0.013821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/External/3D Cartoon Village/Prefabs/Tower.prefab
+  artifactKey: Guid(738ea1fdff256574dad1bc9c67c5f8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/3D Cartoon Village/Prefabs/Tower.prefab using Guid(738ea1fdff256574dad1bc9c67c5f8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '697006275b2e2e8d325c31c0d8da281b') in 0.013695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.204434 seconds.
+  path: Assets/External/3D Cartoon Village/Prefabs/Tower8.prefab
+  artifactKey: Guid(60613fce6cccb334dad24da72cb319bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/3D Cartoon Village/Prefabs/Tower8.prefab using Guid(60613fce6cccb334dad24da72cb319bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '267548a5ce5f5db2f1f7124d60fe9377') in 0.015089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/External/3D Cartoon Village/Prefabs/Tower9.prefab
+  artifactKey: Guid(86a88e24c400ba34687440932c6bf881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/3D Cartoon Village/Prefabs/Tower9.prefab using Guid(86a88e24c400ba34687440932c6bf881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c64a27977e0ebfbc92f7c909fad8ab43') in 0.015159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/External/3D Cartoon Village/Prefabs/Tower10.prefab
+  artifactKey: Guid(f19bb4596b91ccf4e8261e7bad076735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/3D Cartoon Village/Prefabs/Tower10.prefab using Guid(f19bb4596b91ccf4e8261e7bad076735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '582a71b3143746debd52cc2d0757d1ba') in 0.013722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/External/3D Cartoon Village/Prefabs/Tower20.prefab
+  artifactKey: Guid(2fbaddcc6444c29478a387a2fd8deb9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/3D Cartoon Village/Prefabs/Tower20.prefab using Guid(2fbaddcc6444c29478a387a2fd8deb9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eff7cb3d34e676e40f7a61873cd7c1e2') in 0.012788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/External/3D Cartoon Village/Prefabs/Tower22.prefab
+  artifactKey: Guid(cc2d2f430f4326f4ca959307d8c55720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/3D Cartoon Village/Prefabs/Tower22.prefab using Guid(cc2d2f430f4326f4ca959307d8c55720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a73def9a2398b7e6d651caa6657e235d') in 0.013249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/External/3D Cartoon Village/Prefabs/Tower31.prefab
+  artifactKey: Guid(f1db347953317284cb9cd28732fc9224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/3D Cartoon Village/Prefabs/Tower31.prefab using Guid(f1db347953317284cb9cd28732fc9224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c135536739ed65c5271eec8d788aa31') in 0.014410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/External/3D Cartoon Village/Prefabs/Tower30.prefab
+  artifactKey: Guid(c7d3716c24a97cc4383ebc8401e7eadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/3D Cartoon Village/Prefabs/Tower30.prefab using Guid(c7d3716c24a97cc4383ebc8401e7eadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee236f1ec6162033f2a1387261f2cf35') in 0.013575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/External/3D Cartoon Village/Prefabs/Tower21.prefab
+  artifactKey: Guid(7a8b14d2a3bf7f647a25287358d8c348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/3D Cartoon Village/Prefabs/Tower21.prefab using Guid(7a8b14d2a3bf7f647a25287358d8c348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e483c9252982b820a2d753614c6873c') in 0.021561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/External/3D Cartoon Village/Prefabs/Tower12.prefab
+  artifactKey: Guid(bae3378f8021a7049ae718792659c343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/3D Cartoon Village/Prefabs/Tower12.prefab using Guid(bae3378f8021a7049ae718792659c343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac89beab7d3d7d8d023ca6d420c93716') in 0.014078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/External/3D Cartoon Village/Prefabs/Tower11.prefab
+  artifactKey: Guid(736a0b6656163d24a91f1aa4bf456a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/3D Cartoon Village/Prefabs/Tower11.prefab using Guid(736a0b6656163d24a91f1aa4bf456a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c8f364b5ffd9288125350fc6feed989') in 0.015012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.109875 seconds.
+  path: Assets/External/3D Cartoon Village/Prefabs/TownHall.prefab
+  artifactKey: Guid(4cf3e2658584d4e49993cfd3808b5295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/3D Cartoon Village/Prefabs/TownHall.prefab using Guid(4cf3e2658584d4e49993cfd3808b5295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06077d28a3894f0b0d47c24a71b27585') in 0.036716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/External/3D Cartoon Village/Prefabs/Wall3.prefab
+  artifactKey: Guid(5e81853cf47ee4a4381c73c51ee6bfcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/3D Cartoon Village/Prefabs/Wall3.prefab using Guid(5e81853cf47ee4a4381c73c51ee6bfcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '103f7dd7d094580ae5915ece80bf6e3c') in 0.014306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/External/3D Cartoon Village/Prefabs/Well.prefab
+  artifactKey: Guid(dd0d3387b8a757f45bdfea4642422c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/3D Cartoon Village/Prefabs/Well.prefab using Guid(dd0d3387b8a757f45bdfea4642422c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df1bfdb96ea6e4c8199d002986161b3c') in 0.017346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/External/3D Cartoon Village/Prefabs/Tree.prefab
+  artifactKey: Guid(bd6dc9bf7490c6041ada3763e75e72b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/3D Cartoon Village/Prefabs/Tree.prefab using Guid(bd6dc9bf7490c6041ada3763e75e72b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18cd5ed383e1f943edf018727ac50589') in 0.015236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/External/3D Cartoon Village/Prefabs/Wall.prefab
+  artifactKey: Guid(9d5020896759df44f9c483176cc3a697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/3D Cartoon Village/Prefabs/Wall.prefab using Guid(9d5020896759df44f9c483176cc3a697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb15f6a8578162d0674c4cd9824cf6c6') in 0.013570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/External/3D Cartoon Village/Prefabs/Tree2.prefab
+  artifactKey: Guid(e3a30058d7c317b499aa53ba75e8639c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/3D Cartoon Village/Prefabs/Tree2.prefab using Guid(e3a30058d7c317b499aa53ba75e8639c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40a4369c1b4c3378c27ff5e1134c3fcd') in 0.021703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/External/3D Cartoon Village/Prefabs/Tree3.prefab
+  artifactKey: Guid(1f7e4b604d112b1468b4b92975077771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/3D Cartoon Village/Prefabs/Tree3.prefab using Guid(1f7e4b604d112b1468b4b92975077771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c13faf323f1f102cfdc862b6c0484b8') in 0.015117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/External/3D Cartoon Village/Prefabs/Wall2.prefab
+  artifactKey: Guid(00a1229f10e9c6149ac5df04dcaff904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/3D Cartoon Village/Prefabs/Wall2.prefab using Guid(00a1229f10e9c6149ac5df04dcaff904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af53e4f4c170b1edd537995785476af2') in 0.013348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.084326 seconds.
+  path: Assets/External/3D Cartoon Village/Prefabs/Window.prefab
+  artifactKey: Guid(d88b55dccc1c1244b805517cf651c8c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/3D Cartoon Village/Prefabs/Window.prefab using Guid(d88b55dccc1c1244b805517cf651c8c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39bbd7afb83cdaad353196586defd80d') in 0.017154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.513591 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/MoveFWD_Battle_InPlace_SwordAndShield.fbx
+  artifactKey: Guid(7d4f9e9da55a3bd4f958a63308a522a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/MoveFWD_Battle_InPlace_SwordAndShield.fbx using Guid(7d4f9e9da55a3bd4f958a63308a522a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b56bdd222481b1b3d066f8badc6f8282') in 0.151727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/JumpStart_Normal_InPlace_SwordAndShield.fbx
+  artifactKey: Guid(c2b2e4c79d87c3045838cbc5935d8a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/JumpStart_Normal_InPlace_SwordAndShield.fbx using Guid(c2b2e4c79d87c3045838cbc5935d8a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c44ded4fff3eeb038416f126455e061') in 0.090846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/Attack04_Start_SwordAndShield.fbx
+  artifactKey: Guid(11cede249330b1744a2bc174ddb6111c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/Attack04_Start_SwordAndShield.fbx using Guid(11cede249330b1744a2bc174ddb6111c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51139771575b083c2f45a92e9bec0ad7') in 0.061609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/RPG Tiny Hero Duo/Mesh/Shield05Polyart.fbx
+  artifactKey: Guid(bfe52b9860bf3254b97307683c1f0d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Mesh/Shield05Polyart.fbx using Guid(bfe52b9860bf3254b97307683c1f0d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75beda599cd874d6c45c311cba0ffd73') in 0.011458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/Attack03_SwordAndShiled.fbx
+  artifactKey: Guid(9a6c3585df66f2e4782635fc7a23494c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/Attack03_SwordAndShiled.fbx using Guid(9a6c3585df66f2e4782635fc7a23494c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab2d58b0f293e5f7d7fd071824349f47') in 0.038549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/JumpFull_Normal_InPlace_SwordAndShield.fbx
+  artifactKey: Guid(41974026cbc6b884aa451c380d3c6dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/JumpFull_Normal_InPlace_SwordAndShield.fbx using Guid(41974026cbc6b884aa451c380d3c6dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b1f919d04f4e04a6994d049e464247a') in 0.037609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/RPG Tiny Hero Duo/Mesh/ModularCharacterPolyart.fbx
+  artifactKey: Guid(14ab85c74a636c74baa3ae08a1b410bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Mesh/ModularCharacterPolyart.fbx using Guid(14ab85c74a636c74baa3ae08a1b410bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d23517774be726013e9740a9caad8a1') in 0.055017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/Attack04_Spinning_SwordAndShield.fbx
+  artifactKey: Guid(5729b70d60fdcac45bd03f32c0b8dbea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/Attack04_Spinning_SwordAndShield.fbx using Guid(5729b70d60fdcac45bd03f32c0b8dbea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c081657b5fab220200a0b0b36e3480c') in 0.036880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/RPG Tiny Hero Duo/Mesh/ModularCharacterPBR.fbx
+  artifactKey: Guid(34b0895dfc863f742aa5075a4e691859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Mesh/ModularCharacterPBR.fbx using Guid(34b0895dfc863f742aa5075a4e691859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa81297979deb933916c2989e1a6f7a3') in 0.062480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/RootMotion/JumpFull_Normal_RM_SwordAndShield.fbx
+  artifactKey: Guid(dd2792b75214ec24793124d449bacd3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/RootMotion/JumpFull_Normal_RM_SwordAndShield.fbx using Guid(dd2792b75214ec24793124d449bacd3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4242e2d46a5fcfcc79bb0cd596faa48a') in 0.036223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/Die01_SwordAndShield.fbx
+  artifactKey: Guid(5940bb0b55717a746bbbe4d3e47e7e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/Die01_SwordAndShield.fbx using Guid(5940bb0b55717a746bbbe4d3e47e7e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3b0c2441bd1c1c52887de68e2376ba7') in 0.035755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/RPG Tiny Hero Duo/Mesh/Shield05PBR.fbx
+  artifactKey: Guid(99054bc45d8ad7442b1e413b0e260ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Mesh/Shield05PBR.fbx using Guid(99054bc45d8ad7442b1e413b0e260ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c1ffd0ad87bbef84aa8a4ea7d6e32a1') in 0.025490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/RootMotion/MoveFWD_Battle_RM_SwordAndShield.fbx
+  artifactKey: Guid(8bcf8cfd96eeb4040a37e9e44d89a841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/RootMotion/MoveFWD_Battle_RM_SwordAndShield.fbx using Guid(8bcf8cfd96eeb4040a37e9e44d89a841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71fcbc6b3f489b599ceeaa9b318e3130') in 0.033959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/RootMotion/JumpFull_Spin_RM_SwordAndShield.fbx
+  artifactKey: Guid(7d1e5bb9bc81eee4095f91385b5effe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/RootMotion/JumpFull_Spin_RM_SwordAndShield.fbx using Guid(7d1e5bb9bc81eee4095f91385b5effe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd3ba733f3382ad51a42ef97ac5cd58e') in 0.033843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/Attack04_SwordAndShiled.fbx
+  artifactKey: Guid(b267a2c210dbd1d4badc3f270df6d12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/Attack04_SwordAndShiled.fbx using Guid(b267a2c210dbd1d4badc3f270df6d12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7ca47e8abaa4a5179b7ce1bf46b6800') in 0.034930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/Idle_Normal_SwordAndShield.fbx
+  artifactKey: Guid(423aabfede0896f4db862ab8e54dde30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/Idle_Normal_SwordAndShield.fbx using Guid(423aabfede0896f4db862ab8e54dde30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1025bf42b40b1a694b7b95bf4fa8d646') in 0.048373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/RootMotion/MoveFWD_Normal_RM_SwordAndShield.fbx
+  artifactKey: Guid(784f38d02d7d1cd46bbf6b0c84154880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/RootMotion/MoveFWD_Normal_RM_SwordAndShield.fbx using Guid(784f38d02d7d1cd46bbf6b0c84154880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7382e48e074051474565400893aea8c8') in 0.033957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/JumpAir_Normal_InPlace_SwordAndShield.fbx
+  artifactKey: Guid(8be8f9bf3f16f184fb9719bd233874e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/JumpAir_Normal_InPlace_SwordAndShield.fbx using Guid(8be8f9bf3f16f184fb9719bd233874e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '534492d12f66f2c8ddf398869c3d291b') in 0.033050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/Die01_Stay_SwordAndShield.fbx
+  artifactKey: Guid(0e112f1584fcccd4face09e3b7156832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/Die01_Stay_SwordAndShield.fbx using Guid(0e112f1584fcccd4face09e3b7156832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '337cef962784631ab550f23ccd4465a4') in 0.033863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/RPG Tiny Hero Duo/Mesh/OHS03Polyart.fbx
+  artifactKey: Guid(3164d361d8955d14c996186ce47ba3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Mesh/OHS03Polyart.fbx using Guid(3164d361d8955d14c996186ce47ba3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f435a9d62049d29d42258a2a72cdd03c') in 0.011988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/RPG Tiny Hero Duo/Mesh/OHS06PBR.fbx
+  artifactKey: Guid(8e583e9185af1be4e9dd6f501e6fe7d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Mesh/OHS06PBR.fbx using Guid(8e583e9185af1be4e9dd6f501e6fe7d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9f3abab8ff03bbf1b42c27ac83c486f') in 0.023246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/RPG Tiny Hero Duo/Mesh/Shield08PBR.fbx
+  artifactKey: Guid(4f74d725d371c394ba3753952409c5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Mesh/Shield08PBR.fbx using Guid(4f74d725d371c394ba3753952409c5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '138f9bd4ea1ae9d89f44f91dbdc55c65') in 0.014828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/RPG Tiny Hero Duo/Mesh/Shield08Polyart.fbx
+  artifactKey: Guid(c987a0ed5f8902041b988ba78a977080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Mesh/Shield08Polyart.fbx using Guid(c987a0ed5f8902041b988ba78a977080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e44cd073ddfaec447adc2fc8d3c9a89c') in 0.013475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/GetHit01_SwordAndShield.fbx
+  artifactKey: Guid(c98546b8d8d3ab046afc8acfe706361f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/GetHit01_SwordAndShield.fbx using Guid(c98546b8d8d3ab046afc8acfe706361f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '994ad039d92cbe305e69edefd0c5e4c7') in 0.034493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/JumpAir_Spin_InPlace_SwordAndShield.fbx
+  artifactKey: Guid(c025fa5a934bfbb40b2bf27c97c22b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/JumpAir_Spin_InPlace_SwordAndShield.fbx using Guid(c025fa5a934bfbb40b2bf27c97c22b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22260ca6766cf4d6e8ce7599c511317b') in 0.039586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/JumpFull_Spin_InPlace_SwordAndShield.fbx
+  artifactKey: Guid(b5bfe52205c4a874991178073ad7989c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/JumpFull_Spin_InPlace_SwordAndShield.fbx using Guid(b5bfe52205c4a874991178073ad7989c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f65624437d502a8b72b290ca3f4f6421') in 0.037527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/DefendHit_SwordAndShield.fbx
+  artifactKey: Guid(655c85429305c154b88f3b9157168e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/DefendHit_SwordAndShield.fbx using Guid(655c85429305c154b88f3b9157168e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2981a43a72591944deb46c77cdab1766') in 0.038370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/JumpAir_Double_InPlace_SwordAndShield.fbx
+  artifactKey: Guid(5a1a6cd3b07227d4291a52440352f908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/JumpAir_Double_InPlace_SwordAndShield.fbx using Guid(5a1a6cd3b07227d4291a52440352f908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c405dc0606c184160d22bdcf0a1c8259') in 0.033296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/RootMotion/MoveBWD_Battle_RM_SwordAndShield.fbx
+  artifactKey: Guid(320724e8ef4b93d458cfaace85217d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/RootMotion/MoveBWD_Battle_RM_SwordAndShield.fbx using Guid(320724e8ef4b93d458cfaace85217d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '622f00fe15415159e9a55012f8b0b3f2') in 0.034619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/RPG Tiny Hero Duo/Mesh/OHS06Polyart.fbx
+  artifactKey: Guid(892e5ad366182fd4f823a971e9e16281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Mesh/OHS06Polyart.fbx using Guid(892e5ad366182fd4f823a971e9e16281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2657944821b0966b3d2a15464fde64bd') in 0.011418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/Attack02_SwordAndShiled.fbx
+  artifactKey: Guid(8283fadf2c89507469495f30db8680db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/Attack02_SwordAndShiled.fbx using Guid(8283fadf2c89507469495f30db8680db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62658d01ff84ab4e01d9f62d3d9433f1') in 0.074611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/GetUp_SwordAndShield.fbx
+  artifactKey: Guid(4e1dc6b0156559b4ca64937d40514fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/GetUp_SwordAndShield.fbx using Guid(4e1dc6b0156559b4ca64937d40514fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '593df7ad0d94f9c714d5782239d10909') in 0.032886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/Defend_SwordAndShield.fbx
+  artifactKey: Guid(61f2c64d4f97d9f459a1d367eb16fb13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/Defend_SwordAndShield.fbx using Guid(61f2c64d4f97d9f459a1d367eb16fb13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf016d2ac29c64633542d597cff0e19d') in 0.033055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/Dizzy_SwordAndShield.fbx
+  artifactKey: Guid(065be5573fa6aca4380d5ddfb9dde3d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/Dizzy_SwordAndShield.fbx using Guid(065be5573fa6aca4380d5ddfb9dde3d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '688475d807a00ffef2e3c4998ecb2412') in 0.041732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/Idle_Battle_SwordAndShiled.fbx
+  artifactKey: Guid(0308cf4e83cf517488b60af58b290fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/Idle_Battle_SwordAndShiled.fbx using Guid(0308cf4e83cf517488b60af58b290fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06ddb558987c3cf39d4d2cb323f25463') in 0.034057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/JumpEnd_Normal_InPlace_SwordAndShield.fbx
+  artifactKey: Guid(8b662f6fbb996ba429182e54857361d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/JumpEnd_Normal_InPlace_SwordAndShield.fbx using Guid(8b662f6fbb996ba429182e54857361d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97045129ed5bfbfbd1d1743514ded59b') in 0.034034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/RPG Tiny Hero Duo/Mesh/Stage.fbx
+  artifactKey: Guid(0f138a164e7f81a4a9e93cf85a9020e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Mesh/Stage.fbx using Guid(0f138a164e7f81a4a9e93cf85a9020e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20ffdad62543770b525563b34b9798c5') in 0.012388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/MoveBWD_Battle_InPlace_SwordAndShield.fbx
+  artifactKey: Guid(4897d9e1e93439744a78d1cebdef17ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/MoveBWD_Battle_InPlace_SwordAndShield.fbx using Guid(4897d9e1e93439744a78d1cebdef17ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3c92b27b5fa99d112cac59f64e473be') in 0.033297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/RootMotion/MoveLFT_Battle_RM_SwordAndShield.fbx
+  artifactKey: Guid(0451bbf0d5f172a40ac47fdb6d799f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/RootMotion/MoveLFT_Battle_RM_SwordAndShield.fbx using Guid(0451bbf0d5f172a40ac47fdb6d799f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a398051b15fa230e3fad6ee0a39df85') in 0.034343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/RPG Tiny Hero Duo/Mesh/OHS03PBR.fbx
+  artifactKey: Guid(de392f919a34e4e4c94a6e77ef08a22d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Mesh/OHS03PBR.fbx using Guid(de392f919a34e4e4c94a6e77ef08a22d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76d8ba97b3d464120689829ce270fbbc') in 0.010832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.735478 seconds.
+  path: Assets/RPG Tiny Hero Duo/Material/PBR_Default.mat
+  artifactKey: Guid(f323cced30244554986ee5e9f5dd8b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Material/PBR_Default.mat using Guid(f323cced30244554986ee5e9f5dd8b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bc4af891822692a80bda7240a4e3a7c') in 0.022207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/RPG Tiny Hero Duo/Material/Skybox_Mat.mat
+  artifactKey: Guid(353466c49cf019540bf2ac95815b7c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Material/Skybox_Mat.mat using Guid(353466c49cf019540bf2ac95815b7c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cc3d84ae38e3726dabaed68b9f6d5a3') in 0.101901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/RPG Tiny Hero Duo/Material/Stage.mat
+  artifactKey: Guid(f2c23294678c47341aa7ffec8a34162a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Material/Stage.mat using Guid(f2c23294678c47341aa7ffec8a34162a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be596926c5ab0a0acba8d07cff42f2ad') in 0.156723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/RPG Tiny Hero Duo/Material/Polyart_Default.mat
+  artifactKey: Guid(348eeda6cad5d86469a42deac7177e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Material/Polyart_Default.mat using Guid(348eeda6cad5d86469a42deac7177e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddc2d9cb78132a81e3c0c6db9dd2da91') in 0.011114 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003178 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\zxa64\Desktop\ProjectX\Client\ProjectX\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\zxa64\Desktop\ProjectX\Client\ProjectX\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.787 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2689 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.8 MB.
+System memory in use after: 125.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3216.
+Total: 1.719900 ms (FindLiveObjects: 0.222500 ms CreateObjectMapping: 0.064600 ms MarkObjects: 1.374200 ms  DeleteObjects: 0.057700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006620 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\zxa64\Desktop\ProjectX\Client\ProjectX\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\zxa64\Desktop\ProjectX\Client\ProjectX\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.694 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2689 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.8 MB.
+System memory in use after: 125.0 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3219.
+Total: 1.671100 ms (FindLiveObjects: 0.210100 ms CreateObjectMapping: 0.089700 ms MarkObjects: 1.329800 ms  DeleteObjects: 0.040500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 359.184319 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Cubemaps/FS013/FS013_Night_Moonless_Cubemap.mat
+  artifactKey: Guid(52b6d30a38a2c844dbd84eb9828b22b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Cubemaps/FS013/FS013_Night_Moonless_Cubemap.mat using Guid(52b6d30a38a2c844dbd84eb9828b22b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b577e7f4551f45b7fe6c82ef405fcd7') in 0.197665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Panoramics/FS017/FS017_Rainy.mat
+  artifactKey: Guid(7a8675eb396637d43b4ba0a69cc715a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Panoramics/FS017/FS017_Rainy.mat using Guid(7a8675eb396637d43b4ba0a69cc715a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b202822d9e9441a3b77f97861d85316') in 0.034606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Panoramics/FS017/FS017_Night.mat
+  artifactKey: Guid(d3823126980dd98479f7761e6d47338a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Panoramics/FS017/FS017_Night.mat using Guid(d3823126980dd98479f7761e6d47338a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '615bc5c1bbed11bf5f65477d0d20d373') in 0.015504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Cubemaps/FS017/FS017_Sunrise_Cubemap.mat
+  artifactKey: Guid(77874dbfcee9b034fb544786292018c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Cubemaps/FS017/FS017_Sunrise_Cubemap.mat using Guid(77874dbfcee9b034fb544786292018c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '272bcfd93f416e2bd5078d4b697e2077') in 0.018496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Cubemaps/FS017/FS017_Night_Cubemap.mat
+  artifactKey: Guid(cd1b8774e71770546bec980a3d98344a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Cubemaps/FS017/FS017_Night_Cubemap.mat using Guid(cd1b8774e71770546bec980a3d98344a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfd6d8bbbe45d1e4157dc2ef1a7e85dc') in 0.016040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Panoramics/FS013/FS013_Sunset.mat
+  artifactKey: Guid(de1d750fefeeac642bf9b11a3978ccf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Panoramics/FS013/FS013_Sunset.mat using Guid(de1d750fefeeac642bf9b11a3978ccf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75240ad053940be2bfeaefe6005bd2f6') in 0.015369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Cubemaps/FS013/FS013_Sunset_Cubemap.mat
+  artifactKey: Guid(2b0ee035e6c540241b0977a4f54c7425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Cubemaps/FS013/FS013_Sunset_Cubemap.mat using Guid(2b0ee035e6c540241b0977a4f54c7425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c87d5b3898844fdabe3ed644f6e3338f') in 0.013456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Panoramics/FS017/FS017_Sunrise.mat
+  artifactKey: Guid(39d27e80110a983468075fd1868610d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Panoramics/FS017/FS017_Sunrise.mat using Guid(39d27e80110a983468075fd1868610d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab978fd8c9c705d1bfbcb34265060db5') in 0.011002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Cubemaps/FS013/FS013_Sunrise_Cubemap.mat
+  artifactKey: Guid(f3b3f6a697514944da8524250aa64277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Cubemaps/FS013/FS013_Sunrise_Cubemap.mat using Guid(f3b3f6a697514944da8524250aa64277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e0921de85be3f81ff0528da7d87badb') in 0.013538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Panoramics/FS017/FS017_Snowy.mat
+  artifactKey: Guid(24d76106ebc1bd947a3fed862f899b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Panoramics/FS017/FS017_Snowy.mat using Guid(24d76106ebc1bd947a3fed862f899b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '006d749ef02245a328c4f65ea802f7de') in 0.018849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Cubemaps/FS017/FS017_Night_Moonless_Cubemap.mat
+  artifactKey: Guid(53d73dd4f99c4c84d95a657e638c4553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Cubemaps/FS017/FS017_Night_Moonless_Cubemap.mat using Guid(53d73dd4f99c4c84d95a657e638c4553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '884d61eae9c9c1c018d7aa5015f74e29') in 0.015951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Cubemaps/FS017/FS017_Snowy_Cubemap.mat
+  artifactKey: Guid(b1026180dc7c2da46ae84254ddc371da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Cubemaps/FS017/FS017_Snowy_Cubemap.mat using Guid(b1026180dc7c2da46ae84254ddc371da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed5d178854ee120b43cd0070ec8d4d48') in 0.013211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Cubemaps/FS013/FS013_Rainy_Cubemap.mat
+  artifactKey: Guid(d1894fa42f07f3a4c928395a7b849410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Cubemaps/FS013/FS013_Rainy_Cubemap.mat using Guid(d1894fa42f07f3a4c928395a7b849410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ff39063cc32091d12776b4387bf06d0') in 0.013240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Cubemaps/FS017/FS017_Day_Sunless_Cubemap.mat
+  artifactKey: Guid(0cd0203ab60f88f4db947a87b4f57cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Cubemaps/FS017/FS017_Day_Sunless_Cubemap.mat using Guid(0cd0203ab60f88f4db947a87b4f57cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4375ebd72f191f510f29f440114160ea') in 0.012810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Panoramics/FS013/FS013_Rainy.mat
+  artifactKey: Guid(8426cf3d3939a7d419671f3d5c269c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Panoramics/FS013/FS013_Rainy.mat using Guid(8426cf3d3939a7d419671f3d5c269c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16df588c5bea4fb8abfb9c93c8fbd4a0') in 0.010788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Cubemaps/FS013/FS013_Snowy_Cubemap.mat
+  artifactKey: Guid(87567e7d36a377546a61db55aebf554c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Cubemaps/FS013/FS013_Snowy_Cubemap.mat using Guid(87567e7d36a377546a61db55aebf554c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67711e0c1d97e1ce3b74845b8e9c0ac9') in 0.012902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Panoramics/FS013/FS013_Sunrise.mat
+  artifactKey: Guid(3a253cab252a165478338fba0f03e63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Panoramics/FS013/FS013_Sunrise.mat using Guid(3a253cab252a165478338fba0f03e63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b36efac9c4448ffa738086a20be63017') in 0.011103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Panoramics/FS017/FS017_Night_Moonless.mat
+  artifactKey: Guid(48d4f62e2d5af1643a431d2f4b07ccbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Panoramics/FS017/FS017_Night_Moonless.mat using Guid(48d4f62e2d5af1643a431d2f4b07ccbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71225f29bb23181afc4d10806770afa4') in 0.010490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Cubemaps/FS017/FS017_Day_Cubemap.mat
+  artifactKey: Guid(6075488e92597c9478c885b7b54674a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Cubemaps/FS017/FS017_Day_Cubemap.mat using Guid(6075488e92597c9478c885b7b54674a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb7863135a556820c5ecdf12d50c852e') in 0.013917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Panoramics/FS017/FS017_Sunset.mat
+  artifactKey: Guid(aed657681c6812845bb7736c343b5e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Panoramics/FS017/FS017_Sunset.mat using Guid(aed657681c6812845bb7736c343b5e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50b98b8c10a3d258d6bf14223a5f78e6') in 0.010804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Cubemaps/FS017/FS017_Rainy_Cubemap.mat
+  artifactKey: Guid(be04847ecd3774d468b7a7fffb971b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Cubemaps/FS017/FS017_Rainy_Cubemap.mat using Guid(be04847ecd3774d468b7a7fffb971b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2c3cca8f571fc04351ffaa19edbf509') in 0.013358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Panoramics/FS017/FS017_Day_Sunless.mat
+  artifactKey: Guid(416ee80c6a09f9b4fb43d9aa43f4a057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Panoramics/FS017/FS017_Day_Sunless.mat using Guid(416ee80c6a09f9b4fb43d9aa43f4a057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30de6ba1a1b9432a861efe21b2100bac') in 0.010645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Cubemaps/FS017/FS017_Sunset_Cubemap.mat
+  artifactKey: Guid(9153b2dbef5d0b0428e60c092d1b4a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Cubemaps/FS017/FS017_Sunset_Cubemap.mat using Guid(9153b2dbef5d0b0428e60c092d1b4a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a0524195afa8fb97150ea4d3c5bcdd1') in 0.013226 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000103 seconds.
-  path: Assets/External/_TerrainAutoUpgrade/layer_Rock23d3aba195e4d26ee.terrainlayer
-  artifactKey: Guid(82de614ef915a0040a0bff9955c253a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External/_TerrainAutoUpgrade/layer_Rock23d3aba195e4d26ee.terrainlayer using Guid(82de614ef915a0040a0bff9955c253a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbc2d941a2f12e373d767637282eb4ce') in 0.009517 seconds 
+  path: Assets/External/Fantasy Skybox FREE/Panoramics/FS017/FS017_Day.mat
+  artifactKey: Guid(0d5771081eb9abb43b1792b52260d914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Panoramics/FS017/FS017_Day.mat using Guid(0d5771081eb9abb43b1792b52260d914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c03bee9c71c2aaeb1bc9e9f4774e0b36') in 0.010610 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.066809 seconds.
-  path: Assets/External/3D Cartoon Village/Materials
-  artifactKey: Guid(10b3e21ecc1e42c4993393e6dfec18c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External/3D Cartoon Village/Materials using Guid(10b3e21ecc1e42c4993393e6dfec18c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1240b83026e49db673d93a96f1966df4') in 0.008174 seconds 
+  Time since last request: 0.000105 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Panoramics/FS013/FS013_Snowy.mat
+  artifactKey: Guid(0e51b3d2f16325549987d8d6070de3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Panoramics/FS013/FS013_Snowy.mat using Guid(0e51b3d2f16325549987d8d6070de3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cb93e754568a5a4f05840a8aea99142') in 0.010780 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.121856 seconds.
-  path: Assets/External/3D Cartoon Village/Scene
-  artifactKey: Guid(d0a2b456f690dc24bbcb243e24aebe94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External/3D Cartoon Village/Scene using Guid(d0a2b456f690dc24bbcb243e24aebe94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c47319a4f4fdc56da8dcf25001d76c7') in 0.008453 seconds 
+  Time since last request: 1.885479 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Panoramics/FS003/FS003_Sunset.mat
+  artifactKey: Guid(6e00f8b39315691449f256740a5cb862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Panoramics/FS003/FS003_Sunset.mat using Guid(6e00f8b39315691449f256740a5cb862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b98b7709e4d3c6406f05c2ab9873bbef') in 0.013482 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.076174 seconds.
-  path: Assets/External/3D Cartoon Village/Scene/New Terrain.asset
-  artifactKey: Guid(7da81eb9165fd40469697325b04180d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External/3D Cartoon Village/Scene/New Terrain.asset using Guid(7da81eb9165fd40469697325b04180d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Received signal SIGSEGV
-Stack trace:
-0x00007ff79dd031b4 (Unity) CreateAssetToGUIDMappingV2
-0x00007ff79dcac9ba (Unity) AssetDatabase::CreateAssetToGUIDMapping
-0x00007ff79e39ddbb (Unity) SplatDatabase::CreateTerrainLayerAsset
-0x00007ff79e39cc80 (Unity) SplatDatabase::ConvertSplatsToTerrainLayers
-0x00007ff79e399cdc (Unity) SplatDatabase::AwakeFromLoad
-0x00007ff79e3d6ae6 (Unity) TerrainData::AwakeFromLoad
-0x00007ff79d41351f (Unity) AwakeFromLoadQueue::InvokePersistentManagerAwake
-0x00007ff79d413eb2 (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
-0x00007ff79d41403a (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
-0x00007ff79d3e7e5f (Unity) PersistentManager::IntegrateAllThreadedObjects
-0x00007ff79d3e89c7 (Unity) PersistentManager::LoadAndIntegrateAllPreallocatedObjects
-0x00007ff79d3ebee2 (Unity) PersistentManager::ReadObject
-0x00007ff79dca5a01 (Unity) WritePreviews
-0x00007ff79dca2403 (Unity) PreviewImporter::GenerateAssetData
-0x00007ff79dd3c84e (Unity) ImportToObjects
-0x00007ff79dd3b848 (Unity) ImportAsset
-0x00007ff79dcd9e6f (Unity) AssetImportWorker::Import
-0x00007ff79dcfcf52 (Unity) <lambda_9a0c3c600e605f826d039b184a304624>::operator()
-0x00007ff79dd83712 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff79dd85980 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff79dd8906e (Unity) asio::io_service::run
-0x00007ff79dd2551a (Unity) RunAssetImportWorkerClientV2
-0x00007ff79dd25570 (Unity) RunAssetImporterV2
-0x00007ff79d82c106 (Unity) Application::InitializeProject
-0x00007ff79dc38837 (Unity) WinMain
-0x00007ff79f765682 (Unity) __scrt_common_main_seh
-0x00007ff849b27614 (KERNEL32) BaseThreadInitThunk
-0x00007ff84a5826a1 (ntdll) RtlUserThreadStart
-
+  Time since last request: 0.000130 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Cubemaps/FS003/FS003_Sunset_Cubemap.mat
+  artifactKey: Guid(f5dcd562bbe8e6741845a6ba29547444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Cubemaps/FS003/FS003_Sunset_Cubemap.mat using Guid(f5dcd562bbe8e6741845a6ba29547444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaf26fb842898d171bf000bcb14d5b7e') in 0.016354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Panoramics/FS013/FS013_Day.mat
+  artifactKey: Guid(8dd2f17b6e3f8174390967bc55ead836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Panoramics/FS013/FS013_Day.mat using Guid(8dd2f17b6e3f8174390967bc55ead836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5562aafd4600efeb4e6be50b94ef4a15') in 0.013857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Cubemaps/FS013/FS013_Day_Sunless_Cubemap.mat
+  artifactKey: Guid(4daf60de510e93a4b82c4717c0cb4688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Cubemaps/FS013/FS013_Day_Sunless_Cubemap.mat using Guid(4daf60de510e93a4b82c4717c0cb4688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2174a0a766885f3b74d0f668b94d26a') in 0.014155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Panoramics/FS013/FS013_Night.mat
+  artifactKey: Guid(6eecb3bb77b3f7a43a504fceda3b0b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Panoramics/FS013/FS013_Night.mat using Guid(6eecb3bb77b3f7a43a504fceda3b0b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b0d5600097e282420a084c5d66394f2') in 0.012277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Panoramics/FS013/FS013_Day_Sunless.mat
+  artifactKey: Guid(97fca95f33987e548be9dd7c03cb1a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Panoramics/FS013/FS013_Day_Sunless.mat using Guid(97fca95f33987e548be9dd7c03cb1a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03ea831fb3e688f459d49e85bb7ea5b8') in 0.012178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Panoramics/FS013/FS013_Night_Moonless.mat
+  artifactKey: Guid(56c9ed5ee739a324e8d8bdb9613f4890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Panoramics/FS013/FS013_Night_Moonless.mat using Guid(56c9ed5ee739a324e8d8bdb9613f4890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '724adffa59052b5a8fd5d70fea1e4e00') in 0.011398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Cubemaps/FS013/FS013_Night_Cubemap.mat
+  artifactKey: Guid(737024f24a4498b4ea58a67c1667a3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Cubemaps/FS013/FS013_Night_Cubemap.mat using Guid(737024f24a4498b4ea58a67c1667a3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aa2c9c1a56b879cdc8b52b39eb8969f') in 0.013454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Cubemaps/FS013/FS013_Day_Cubemap.mat
+  artifactKey: Guid(20e1111adc6498e499e72f734cde4793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Cubemaps/FS013/FS013_Day_Cubemap.mat using Guid(20e1111adc6498e499e72f734cde4793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b908928ee08f5c4a8f3509d840d3d985') in 0.014627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.113391 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Cubemaps/FS003/FS003_Night_Cubemap.mat
+  artifactKey: Guid(c81599feeec05d14fbf3dd64b71864c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Cubemaps/FS003/FS003_Night_Cubemap.mat using Guid(c81599feeec05d14fbf3dd64b71864c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e24bf88357838d1532692921851c96') in 0.014008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Panoramics/FS003/FS003_Sunrise.mat
+  artifactKey: Guid(023808db2bfa00d44929aa2176d29c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Panoramics/FS003/FS003_Sunrise.mat using Guid(023808db2bfa00d44929aa2176d29c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95673dacee4cd5ce51c08fd26175f7b6') in 0.011715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Panoramics/FS003/FS003_Snowy.mat
+  artifactKey: Guid(b141c8e4f6387ef45b13a68b10c88b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Panoramics/FS003/FS003_Snowy.mat using Guid(b141c8e4f6387ef45b13a68b10c88b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1655003acab4fb650508be42dea02fd4') in 0.019254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Panoramics/FS002/FS002_Sunset.mat
+  artifactKey: Guid(44d0573bf6d91e447b62f3aff840f2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Panoramics/FS002/FS002_Sunset.mat using Guid(44d0573bf6d91e447b62f3aff840f2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82a1ff1ebacf6a68518d5249a824736b') in 0.010584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Day_Sunless_Cubemap.mat
+  artifactKey: Guid(1dfc2aa9d900889499587bd874c3da56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Day_Sunless_Cubemap.mat using Guid(1dfc2aa9d900889499587bd874c3da56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1b54907841d00b72c1bce7be5838b6f') in 0.013289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Snowy_Cubemap.mat
+  artifactKey: Guid(a3a02bda0a9032049ad25627480b5d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Snowy_Cubemap.mat using Guid(a3a02bda0a9032049ad25627480b5d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '106b37f8935ba0c966daf76c11c1fedb') in 0.013037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Panoramics/FS002/FS002_Night.mat
+  artifactKey: Guid(d1fdb8e44b28da34d9e922cca0bc740e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Panoramics/FS002/FS002_Night.mat using Guid(d1fdb8e44b28da34d9e922cca0bc740e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5304d396c037d84e69f454b52fd83b97') in 0.011017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Night_Moonless_Cubemap.mat
+  artifactKey: Guid(9c94282089393fd4dba21f9f9b72149e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Night_Moonless_Cubemap.mat using Guid(9c94282089393fd4dba21f9f9b72149e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64cba9a8c38e4cc57661848b5e0d5229') in 0.012984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Cubemaps/FS003/FS003_Day_Sunless_Cubemap.mat
+  artifactKey: Guid(400d8db5104338b428633f2079c1b88e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Cubemaps/FS003/FS003_Day_Sunless_Cubemap.mat using Guid(400d8db5104338b428633f2079c1b88e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d6eb2d5f7cb21080956dae09805fdee') in 0.014340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Cubemaps/FS003/FS003_Day_Cubemap.mat
+  artifactKey: Guid(4c12da8dc5dced74e838120da11725a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Cubemaps/FS003/FS003_Day_Cubemap.mat using Guid(4c12da8dc5dced74e838120da11725a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc5bad003d9eddf8ce219d4d3411647a') in 0.013062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Panoramics/FS002/FS002_Night_Moonless.mat
+  artifactKey: Guid(1cc6e6796f833a94f94e6d794ca654c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Panoramics/FS002/FS002_Night_Moonless.mat using Guid(1cc6e6796f833a94f94e6d794ca654c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcf7c48cf9678fac9d5babb9fcb23ac0') in 0.010666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Cubemaps/FS003/FS003_Night_Moonless_Cubemap.mat
+  artifactKey: Guid(8c94435c262dc614799eb36fd36c5b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Cubemaps/FS003/FS003_Night_Moonless_Cubemap.mat using Guid(8c94435c262dc614799eb36fd36c5b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb71638935d13d772da7ed4b0fc533a7') in 0.013166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Panoramics/FS003/FS003_Day_Sunless.mat
+  artifactKey: Guid(0f1401d983cde1c49a7f687a57e62c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Panoramics/FS003/FS003_Day_Sunless.mat using Guid(0f1401d983cde1c49a7f687a57e62c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f627c001f8530b9def238f191ceb9b76') in 0.010972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Cubemaps/FS003/FS003_Snowy_Cubemap.mat
+  artifactKey: Guid(4f0579e073abe59409641925c6e53e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Cubemaps/FS003/FS003_Snowy_Cubemap.mat using Guid(4f0579e073abe59409641925c6e53e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '631d3eb2603292abeddcd9f3e4a5b8a1') in 0.013203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Cubemaps/FS003/FS003_Sunrise_Cubemap.mat
+  artifactKey: Guid(bdfc475e919710248bf14d75643fefd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Cubemaps/FS003/FS003_Sunrise_Cubemap.mat using Guid(bdfc475e919710248bf14d75643fefd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0fdf5501f82cca71faadd5eda3e27e8') in 0.012767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Panoramics/FS003/FS003_Night.mat
+  artifactKey: Guid(80fa4f34db87aad4d93c45188b19bfd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Panoramics/FS003/FS003_Night.mat using Guid(80fa4f34db87aad4d93c45188b19bfd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd02b8b4fe9d268aae29c286cd615158e') in 0.010750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Rainy_Cubemap.mat
+  artifactKey: Guid(d4e34faecb9b9564e941b0a4236003c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Rainy_Cubemap.mat using Guid(d4e34faecb9b9564e941b0a4236003c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bf11381b69d082fe5c8e108471e9d42') in 0.012873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Panoramics/FS003/FS003_Rainy.mat
+  artifactKey: Guid(e0a21ebc98cee4e46bbae873ec0be703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Panoramics/FS003/FS003_Rainy.mat using Guid(e0a21ebc98cee4e46bbae873ec0be703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ddddded410f4d845b5d63a278c265f0') in 0.010691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Night_Cubemap.mat
+  artifactKey: Guid(3f1e52dec055a3a4f850420ef19cb2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Night_Cubemap.mat using Guid(3f1e52dec055a3a4f850420ef19cb2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f3f53060662e6679503ce0b8cdb2802') in 0.012910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Sunrise_Cubemap.mat
+  artifactKey: Guid(eb8fd6bd252589744b602770b09ccbd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Sunrise_Cubemap.mat using Guid(eb8fd6bd252589744b602770b09ccbd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43967e4960fd19f897093d6dea431e31') in 0.014268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Panoramics/FS003/FS003_Day.mat
+  artifactKey: Guid(c051fe5a20f72814f9643eb10ebbd2fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Panoramics/FS003/FS003_Day.mat using Guid(c051fe5a20f72814f9643eb10ebbd2fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '812fec2e11874768ad12839cf384ebad') in 0.011517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Panoramics/FS003/FS003_Night_Moonless.mat
+  artifactKey: Guid(20cbde986f628bb41bbc92dfd61311cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Panoramics/FS003/FS003_Night_Moonless.mat using Guid(20cbde986f628bb41bbc92dfd61311cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53b04e8189154af6b37f3fc5130359d6') in 0.011406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Panoramics/FS002/FS002_Rainy.mat
+  artifactKey: Guid(b5a27fa4b11bfb24cbc6daff3802c229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Panoramics/FS002/FS002_Rainy.mat using Guid(b5a27fa4b11bfb24cbc6daff3802c229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9fa54a24439fc63be0aa5584f530f0c') in 0.011138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Panoramics/FS002/FS002_Sunrise.mat
+  artifactKey: Guid(7c86d4abbd33b564b9e773aceadb8572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Panoramics/FS002/FS002_Sunrise.mat using Guid(7c86d4abbd33b564b9e773aceadb8572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f742eabe3d1bfdc9a3cb3e7166c8a84c') in 0.010864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Sunset_Cubemap.mat
+  artifactKey: Guid(a59fe87939f259d40a7ee37624c9568b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Sunset_Cubemap.mat using Guid(a59fe87939f259d40a7ee37624c9568b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4946e5471de94ec1239878b383c9509e') in 0.013967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Panoramics/FS002/FS002_Day_Sunless.mat
+  artifactKey: Guid(67950864b84c5db4f9eee7ca51c85571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Panoramics/FS002/FS002_Day_Sunless.mat using Guid(67950864b84c5db4f9eee7ca51c85571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd274263c0cd0687102ede4f33b8363da') in 0.011088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_01_Moonless.mat
+  artifactKey: Guid(1065b432639a84123a07ea43fe5ba4c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_01_Moonless.mat using Guid(1065b432639a84123a07ea43fe5ba4c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '540441cd43b6bb3384c7d895a148da50') in 0.022281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_04_Sunless.mat
+  artifactKey: Guid(e1ec0e2320d2d4fb9a393769378ce0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_04_Sunless.mat using Guid(e1ec0e2320d2d4fb9a393769378ce0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '423205b3ecf1f53f3225697c593a1a76') in 0.008593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_06_Sunless.mat
+  artifactKey: Guid(5c8d5031ce45e4962818ca2b5426a8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_06_Sunless.mat using Guid(5c8d5031ce45e4962818ca2b5426a8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd28c77ee328f55dc129670bdc717717a') in 0.010738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_03_Sunless.mat
+  artifactKey: Guid(8f2c8ef98c47442d4b0e1896539bf7f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_03_Sunless.mat using Guid(8f2c8ef98c47442d4b0e1896539bf7f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c992581b980d8e9a5be62b7c955d121d') in 0.011322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Day_Cubemap.mat
+  artifactKey: Guid(94d852a7748a347489661febea5eafc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Day_Cubemap.mat using Guid(94d852a7748a347489661febea5eafc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c859e097478030addee599759d6a632f') in 0.013044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_05_Sunless.mat
+  artifactKey: Guid(eea6dc32b86944868a305f6c94f8d7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_05_Sunless.mat using Guid(eea6dc32b86944868a305f6c94f8d7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '578b650a186bce42445f213eba3fde70') in 0.011415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Panoramics/FS002/FS002_Day.mat
+  artifactKey: Guid(9ca22510633fbfd4399f1704cd9d5c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Panoramics/FS002/FS002_Day.mat using Guid(9ca22510633fbfd4399f1704cd9d5c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '251fd7c1bb2bc4bb70c798a435e28879') in 0.011335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_02.mat
+  artifactKey: Guid(fa95802f80bd745cfb5e9c89f7e22341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_02.mat using Guid(fa95802f80bd745cfb5e9c89f7e22341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44ffc692c35f340704544df69e21c550') in 0.010751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_06.mat
+  artifactKey: Guid(123caa41e84e041d0bd65bb3ae888dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_06.mat using Guid(123caa41e84e041d0bd65bb3ae888dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71e6da16893e75fcc7d5c072104e72ec') in 0.011094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_03.mat
+  artifactKey: Guid(33ab377b49aa14f6fae6e5bac230a5d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_03.mat using Guid(33ab377b49aa14f6fae6e5bac230a5d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c50c8a2a939b6014a46c63698d8caf96') in 0.011322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_05.mat
+  artifactKey: Guid(e11f5b66aad75483b8cd16ee18a0c917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_05.mat using Guid(e11f5b66aad75483b8cd16ee18a0c917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2946726662bcc03993a530bb79e7ff9') in 0.010774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_02_Sunless.mat
+  artifactKey: Guid(99a400087584f4263b1a8979d6007ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_02_Sunless.mat using Guid(99a400087584f4263b1a8979d6007ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2cbe8acf3ad95468455f9c166575467') in 0.010444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_04.mat
+  artifactKey: Guid(1700716a8dd8948cf8c66ea34a2786d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_04.mat using Guid(1700716a8dd8948cf8c66ea34a2786d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f642402a899f123e9ff06c7653a4e96') in 0.011551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_01.mat
+  artifactKey: Guid(12ccb828343c3405fb94289774b51aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_01.mat using Guid(12ccb828343c3405fb94289774b51aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2af522e542da780a4652b4c7a16f8a0') in 0.010763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_02.mat
+  artifactKey: Guid(8202c457dff32486ba5ae1f2f548d983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_02.mat using Guid(8202c457dff32486ba5ae1f2f548d983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29f3cde210e7fb963475fd405b314187') in 0.011403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_01.mat
+  artifactKey: Guid(ab675e6698bde46fd87143fb0d7580cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_01.mat using Guid(ab675e6698bde46fd87143fb0d7580cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '566da0051dc5dbedf000e3d6204fb68d') in 0.011852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_02_Moonless.mat
+  artifactKey: Guid(94caf2ba4ca5e46bfaba53afcc8778dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_02_Moonless.mat using Guid(94caf2ba4ca5e46bfaba53afcc8778dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '260f2c0403cb40a416befa11fb7012bd') in 0.010525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_03_Moonless.mat
+  artifactKey: Guid(42dc3b9b0dd2040fc9ef0182fdea0e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_03_Moonless.mat using Guid(42dc3b9b0dd2040fc9ef0182fdea0e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b669ce867e4210775085c02e0cf82cc1') in 0.010959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_01_Sunless.mat
+  artifactKey: Guid(d48a7646f5d0547e889733d84b50cb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_01_Sunless.mat using Guid(d48a7646f5d0547e889733d84b50cb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8668ecfb5d8b16ad68d7e9e54d777ac1') in 0.010816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_03.mat
+  artifactKey: Guid(f8a60d169ab8a46b09c9b01a3e51601f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_03.mat using Guid(f8a60d169ab8a46b09c9b01a3e51601f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99338356d4ee2050a9a240f533dcda9f') in 0.011054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Panoramics/FS002/FS002_Snowy.mat
+  artifactKey: Guid(7b0f2096b49ccfb4f8b47c8084d650fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Panoramics/FS002/FS002_Snowy.mat using Guid(7b0f2096b49ccfb4f8b47c8084d650fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d846038f7b51822718c9d3745995511') in 0.010733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/External/Fantasy Skybox FREE/Cubemaps/FS003/FS003_Rainy_Cubemap.mat
+  artifactKey: Guid(85bdd529a7fbcc344b810462de0c2b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Fantasy Skybox FREE/Cubemaps/FS003/FS003_Rainy_Cubemap.mat using Guid(85bdd529a7fbcc344b810462de0c2b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d882083598870ba2d6a81b975c6f19e') in 0.013299 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

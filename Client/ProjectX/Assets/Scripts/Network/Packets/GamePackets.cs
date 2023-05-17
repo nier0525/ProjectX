@@ -1,5 +1,6 @@
 ﻿using ProtoBuf;
 using System.Collections.Generic;
+using System.Security.Cryptography.X509Certificates;
 
 [ProtoContract]
 public class HeartBeat
@@ -18,13 +19,22 @@ public class SErrorCode
 [ProtoContract]
 public class CLoginInfo
 {
-    [ProtoMember(1)] public string  id { get; set; }
-    [ProtoMember(2)] public string  password { get; set; }
-    [ProtoMember(3)] public bool    isSignUp { get; set; }
+    [ProtoMember(1)] public string id { get; set; }
+    [ProtoMember(2)] public string password { get; set; }
+    [ProtoMember(3)] public bool isSignUp { get; set; }
+}
+
+[ProtoContract]
+public class SCharacterListInfo
+{
+    [ProtoMember(1)] public long index { get; set; }
+    [ProtoMember(2)] public string name { get; set; }
+    [ProtoMember(3)] public int level { get; set; }
 }
 
 [ProtoContract]
 public class SAccountInfo
 {
     [ProtoMember(1)] public long accountID { get; set; }
+    [ProtoMember(2)] public List<SCharacterListInfo> characterList { get; set; }
 }

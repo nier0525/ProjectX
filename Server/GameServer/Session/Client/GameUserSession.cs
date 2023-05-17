@@ -17,15 +17,26 @@ namespace GameServer
         DEVELOPER   // 개발팀
     }
 
+    public enum UserState : byte 
+    {
+        ACCEPTED,
+        DISCONNECTED,
+        LOBBY,
+        INGAME,
+    }
+
     public class GameUserSession : ProtoSession
     {
-        public long     Ping;
-        public long     AccountID;
-        public GMLevel  GMLevel;
-        public int      Cash;
+        public long         Ping;
+        public UserState    UserState;
+        public long         AccountID;
+        public GMLevel      GMLevel;
+        public int          Cash;
 
         public override void OnAccepted(EndPoint endPoint)
         {
+            UserState = UserState.ACCEPTED;
+
             var address = ((IPEndPoint)endPoint).Address.MapToIPv4();
             NetworkLogger.Write($"[{address}] Connected User");
 
@@ -35,6 +46,8 @@ namespace GameServer
 
         public override void OnDisconnected(EndPoint endPoint)
         {
+            UserState = UserState.DISCONNECTED;
+
             var address = ((IPEndPoint)endPoint).Address.MapToIPv4();
             NetworkLogger.Write($"[{address}] Disconnected User");
 
@@ -68,7 +81,7 @@ namespace GameServer
 
         public ServerErrorCode OnReceiveLogin(CLoginInfo packet)
         {
-            int result = 0;
+            int result;
             if (true == packet.isSignUp)
             {
                 result = GameDBToAccount.AccountInsert(this, packet.id, packet.password);
@@ -82,15 +95,17 @@ namespace GameServer
                     return ServerErrorCode.NOT_FOUND_ACCOUNT_INFO;
             }
 
-            if ((int)ProcedureResult.SUCCESS != result)
+            if (ProcedureResult.SUCCESS != result)
+                return ServerErrorCode.DB_ERROR;
+
+            var characterList = GameDBToCharacter.GetCharacterListInfo(this);
+            if (null == characterList)
                 return ServerErrorCode.DB_ERROR;
             
-            return ServerErrorCode.SUCCESS;
-        }
+            Send(GameProtocol.S_ACCOUNT_INFO, new SAccountInfo() { accountID = AccountID, characterList = characterList });
 
-        public void SendToAccountInfo()
-        {
-            Send(GameProtocol.S_ACCOUNT_INFO, new SAccountInfo());
+            UserState = UserState.LOBBY;
+            return ServerErrorCode.SUCCESS;
         }
     }
 }

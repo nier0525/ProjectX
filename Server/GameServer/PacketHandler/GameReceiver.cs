@@ -34,8 +34,6 @@ namespace GameServer.PacketHandler
             var errorCode = user.OnReceiveLogin(packet);
             if (ServerErrorCode.SUCCESS != errorCode)
                 user.SendToErrorMessageBox(errorCode);
-            else
-                user.SendToAccountInfo();
         }
     }
 }
