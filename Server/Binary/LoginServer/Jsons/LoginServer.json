@@ -1,0 +1,7 @@
+{
+  "HostName": "127.0.0.1",
+  "PortNumber": 38001,
+
+  "WorldHostName": "127.0.0.1",
+  "WorldPortNumber": 40001
+}

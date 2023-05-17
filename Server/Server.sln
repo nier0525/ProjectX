@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameServer", "GameServer\Ga
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DummyClient", "DummyClient\DummyClient.csproj", "{15B8FE45-104D-4426-A3DB-4CB40E90B228}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginServer", "LoginServer\LoginServer.csproj", "{B2B64671-9648-4B7C-A02F-CD61123D73F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{15B8FE45-104D-4426-A3DB-4CB40E90B228}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15B8FE45-104D-4426-A3DB-4CB40E90B228}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15B8FE45-104D-4426-A3DB-4CB40E90B228}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2B64671-9648-4B7C-A02F-CD61123D73F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2B64671-9648-4B7C-A02F-CD61123D73F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2B64671-9648-4B7C-A02F-CD61123D73F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2B64671-9648-4B7C-A02F-CD61123D73F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
