@@ -42,3 +42,14 @@ C:\Users\zxa64\Desktop\ProjectX\Server\Core\obj\Debug\Core.csproj.CoreCompileInp
 C:\Users\zxa64\Desktop\ProjectX\Server\Core\obj\Debug\Core.csproj.CopyComplete
 C:\Users\zxa64\Desktop\ProjectX\Server\Core\obj\Debug\Core.dll
 C:\Users\zxa64\Desktop\ProjectX\Server\Core\obj\Debug\Core.pdb
+C:\Users\movegames\Desktop\ProjectX\Server\Binary\Core\Core.deps.json
+C:\Users\movegames\Desktop\ProjectX\Server\Binary\Core\Core.dll
+C:\Users\movegames\Desktop\ProjectX\Server\Binary\Core\Core.pdb
+C:\Users\movegames\Desktop\ProjectX\Server\Core\obj\Debug\Core.csproj.AssemblyReference.cache
+C:\Users\movegames\Desktop\ProjectX\Server\Core\obj\Debug\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\movegames\Desktop\ProjectX\Server\Core\obj\Debug\Core.AssemblyInfoInputs.cache
+C:\Users\movegames\Desktop\ProjectX\Server\Core\obj\Debug\Core.AssemblyInfo.cs
+C:\Users\movegames\Desktop\ProjectX\Server\Core\obj\Debug\Core.csproj.CoreCompileInputs.cache
+C:\Users\movegames\Desktop\ProjectX\Server\Core\obj\Debug\Core.csproj.CopyComplete
+C:\Users\movegames\Desktop\ProjectX\Server\Core\obj\Debug\Core.dll
+C:\Users\movegames\Desktop\ProjectX\Server\Core\obj\Debug\Core.pdb

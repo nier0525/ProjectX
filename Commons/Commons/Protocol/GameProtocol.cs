@@ -5,9 +5,9 @@ public enum GameProtocol : ushort
     S_ERROR_CODE,
 
     C_LOGIN,
+    S_LOGIN,
+
     S_ACCOUNT_INFO,
-
-
 
     C_HEART_BEAT = 19000,
     S_HEART_BEAT,

@@ -2,6 +2,11 @@
   "HostName": "127.0.0.1",
   "PortNumber": 38001,
 
-  "WorldHostName": "127.0.0.1",
-  "WorldPortNumber": 40001
+  "WorldServers": [
+    {
+      "WorldName": "Basic",
+      "HostName": "127.0.0.1",
+      "PortNumber": 40001
+    }
+  ]
 }

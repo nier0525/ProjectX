@@ -470,23 +470,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\zxa64\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\movegames\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\zxa64\\Desktop\\ProjectX\\Server\\Core\\Core.csproj",
+      "projectUniqueName": "C:\\Users\\movegames\\Desktop\\ProjectX\\Server\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "C:\\Users\\zxa64\\Desktop\\ProjectX\\Server\\Core\\Core.csproj",
-      "packagesPath": "C:\\Users\\zxa64\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\zxa64\\Desktop\\ProjectX\\Server\\Core\\obj\\",
+      "projectPath": "C:\\Users\\movegames\\Desktop\\ProjectX\\Server\\Core\\Core.csproj",
+      "packagesPath": "C:\\Users\\movegames\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\movegames\\Desktop\\ProjectX\\Server\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\zxa64\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\movegames\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -495,6 +497,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

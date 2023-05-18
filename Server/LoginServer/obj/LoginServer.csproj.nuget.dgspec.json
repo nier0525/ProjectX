@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zxa64\\Desktop\\ProjectX\\Server\\LoginServer\\LoginServer.csproj": {}
+    "C:\\Users\\movegames\\Desktop\\ProjectX\\Server\\LoginServer\\LoginServer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zxa64\\Desktop\\ProjectX\\Commons\\Commons\\Commons.csproj": {
+    "C:\\Users\\movegames\\Desktop\\ProjectX\\Commons\\Commons\\Commons.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zxa64\\Desktop\\ProjectX\\Commons\\Commons\\Commons.csproj",
+        "projectUniqueName": "C:\\Users\\movegames\\Desktop\\ProjectX\\Commons\\Commons\\Commons.csproj",
         "projectName": "Commons",
-        "projectPath": "C:\\Users\\zxa64\\Desktop\\ProjectX\\Commons\\Commons\\Commons.csproj",
-        "packagesPath": "C:\\Users\\zxa64\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zxa64\\Desktop\\ProjectX\\Commons\\Commons\\obj\\",
+        "projectPath": "C:\\Users\\movegames\\Desktop\\ProjectX\\Commons\\Commons\\Commons.csproj",
+        "packagesPath": "C:\\Users\\movegames\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\movegames\\Desktop\\ProjectX\\Commons\\Commons\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\zxa64\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\movegames\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,14 +27,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\zxa64\\Desktop\\ProjectX\\Server\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\zxa64\\Desktop\\ProjectX\\Server\\Core\\Core.csproj"
+              "C:\\Users\\movegames\\Desktop\\ProjectX\\Server\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\movegames\\Desktop\\ProjectX\\Server\\Core\\Core.csproj"
               }
             }
           }
@@ -67,20 +69,21 @@
         }
       }
     },
-    "C:\\Users\\zxa64\\Desktop\\ProjectX\\Server\\Core\\Core.csproj": {
+    "C:\\Users\\movegames\\Desktop\\ProjectX\\Server\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zxa64\\Desktop\\ProjectX\\Server\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\movegames\\Desktop\\ProjectX\\Server\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\zxa64\\Desktop\\ProjectX\\Server\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\zxa64\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zxa64\\Desktop\\ProjectX\\Server\\Core\\obj\\",
+        "projectPath": "C:\\Users\\movegames\\Desktop\\ProjectX\\Server\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\movegames\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\movegames\\Desktop\\ProjectX\\Server\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\zxa64\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\movegames\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -89,6 +92,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -146,20 +150,21 @@
         }
       }
     },
-    "C:\\Users\\zxa64\\Desktop\\ProjectX\\Server\\LoginServer\\LoginServer.csproj": {
+    "C:\\Users\\movegames\\Desktop\\ProjectX\\Server\\LoginServer\\LoginServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zxa64\\Desktop\\ProjectX\\Server\\LoginServer\\LoginServer.csproj",
+        "projectUniqueName": "C:\\Users\\movegames\\Desktop\\ProjectX\\Server\\LoginServer\\LoginServer.csproj",
         "projectName": "LoginServer",
-        "projectPath": "C:\\Users\\zxa64\\Desktop\\ProjectX\\Server\\LoginServer\\LoginServer.csproj",
-        "packagesPath": "C:\\Users\\zxa64\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zxa64\\Desktop\\ProjectX\\Server\\LoginServer\\obj\\",
+        "projectPath": "C:\\Users\\movegames\\Desktop\\ProjectX\\Server\\LoginServer\\LoginServer.csproj",
+        "packagesPath": "C:\\Users\\movegames\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\movegames\\Desktop\\ProjectX\\Server\\LoginServer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\zxa64\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\movegames\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -168,17 +173,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\zxa64\\Desktop\\ProjectX\\Commons\\Commons\\Commons.csproj": {
-                "projectPath": "C:\\Users\\zxa64\\Desktop\\ProjectX\\Commons\\Commons\\Commons.csproj"
+              "C:\\Users\\movegames\\Desktop\\ProjectX\\Commons\\Commons\\Commons.csproj": {
+                "projectPath": "C:\\Users\\movegames\\Desktop\\ProjectX\\Commons\\Commons\\Commons.csproj"
               },
-              "C:\\Users\\zxa64\\Desktop\\ProjectX\\Server\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\zxa64\\Desktop\\ProjectX\\Server\\Core\\Core.csproj"
+              "C:\\Users\\movegames\\Desktop\\ProjectX\\Server\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\movegames\\Desktop\\ProjectX\\Server\\Core\\Core.csproj"
               }
             }
           }

@@ -63,3 +63,16 @@ C:\Users\zxa64\Desktop\ProjectX\Commons\Commons\obj\Debug\Commons.dll
 C:\Users\zxa64\Desktop\ProjectX\Commons\Commons\obj\Debug\refint\Commons.dll
 C:\Users\zxa64\Desktop\ProjectX\Commons\Commons\obj\Debug\Commons.pdb
 C:\Users\zxa64\Desktop\ProjectX\Commons\Commons\obj\Debug\ref\Commons.dll
+C:\Users\movegames\Desktop\ProjectX\Commons\Binary\Commons.deps.json
+C:\Users\movegames\Desktop\ProjectX\Commons\Binary\Commons.dll
+C:\Users\movegames\Desktop\ProjectX\Commons\Binary\Commons.pdb
+C:\Users\movegames\Desktop\ProjectX\Commons\Commons\obj\Debug\Commons.csproj.AssemblyReference.cache
+C:\Users\movegames\Desktop\ProjectX\Commons\Commons\obj\Debug\Commons.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\movegames\Desktop\ProjectX\Commons\Commons\obj\Debug\Commons.AssemblyInfoInputs.cache
+C:\Users\movegames\Desktop\ProjectX\Commons\Commons\obj\Debug\Commons.AssemblyInfo.cs
+C:\Users\movegames\Desktop\ProjectX\Commons\Commons\obj\Debug\Commons.csproj.CoreCompileInputs.cache
+C:\Users\movegames\Desktop\ProjectX\Commons\Commons\obj\Debug\Commons.csproj.CopyComplete
+C:\Users\movegames\Desktop\ProjectX\Commons\Commons\obj\Debug\Commons.dll
+C:\Users\movegames\Desktop\ProjectX\Commons\Commons\obj\Debug\refint\Commons.dll
+C:\Users\movegames\Desktop\ProjectX\Commons\Commons\obj\Debug\Commons.pdb
+C:\Users\movegames\Desktop\ProjectX\Commons\Commons\obj\Debug\ref\Commons.dll

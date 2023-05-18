@@ -14,6 +14,12 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+	  <Compile Remove="Character\**" />
+	  <EmbeddedResource Remove="Character\**" />
+	  <None Remove="Character\**" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
 	</ItemGroup>
 
@@ -26,10 +32,6 @@
     <Reference Include="protobuf-net">
       <HintPath>..\..\Libraries\ProtoBuf\protobuf-net.dll</HintPath>
     </Reference>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Character\" />
   </ItemGroup>
 
 </Project>
