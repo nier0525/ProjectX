@@ -25,17 +25,22 @@ public class CLoginInfo
 }
 
 [ProtoContract]
-public class SWorldServerInfo
+public class SWorldServerList
 {
-    [ProtoMember(1)] public string worldName { get; set; }
-    [ProtoMember(2)] public string hostName { get; set; }
-    [ProtoMember(3)] public int portNumber { get; set; }
+    [ProtoMember(1)] public List<string> worldNames { get; set; }
 }
 
 [ProtoContract]
-public class SWorldServerList
+public class CWorldSelect
 {
-    [ProtoMember(1)] public List<SWorldServerInfo> worldServers { get; set; }
+    [ProtoMember(1)] public string worldName { get; set; }
+}
+
+[ProtoContract]
+public class SWorldInfo
+{
+    [ProtoMember(1)] public string hostName { get; set; }
+    [ProtoMember(2)] public int portNumber { get; set; }
 }
 
 [ProtoContract]

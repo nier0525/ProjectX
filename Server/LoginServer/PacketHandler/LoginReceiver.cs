@@ -12,7 +12,8 @@ namespace LoginServer
         public static void Registers()
         {
             ProtoBufferManager.Instance.RegisterCallBack(GameProtocol.C_LOGIN, OnLogin);
-        }
+            ProtoBufferManager.Instance.RegisterCallBack(GameProtocol.C_WORLD_SELECT, OnWorldSelect);
+        }        
 
         private static void OnLogin(ProtoSession session, ArraySegment<byte> buffer)
         {
@@ -32,7 +33,12 @@ namespace LoginServer
                 user.SendToErrorMessageBox(errorCode);
                 return;
             }
-            
+
+        }
+
+        private static void OnWorldSelect(ProtoSession session, ArraySegment<byte> buffer)
+        {
+
         }
     }
 }
